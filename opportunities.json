@@ -43,7 +43,7 @@
         "https://careers.clarksons.com/search/?q=trainee"
       ],
       "watchKey": "trainee|programme|program|applications",
-      "note": "The flagship route to becoming a Clarksons broker. Last round, London closed 16 Feb 2026 and other offices stayed open longer. Two years with first-year rotations; Oslo had its own 2026 listing."
+      "note": "The flagship route to becoming a Clarksons broker. Last round, London closed 16 Feb 2026 and other offices stayed open longer. Two years with first-year rotations; Oslo had its own 2026 listing. Checked 16 Oct: the programme page still says only that the 2026 intake is closed."
     },
     {
       "id": "mb-student-market-research",
@@ -69,7 +69,10 @@
       "start": "Flexible",
       "status": "rolling",
       "url": "https://jobs.mbshipbrokers.com/hrmeasy_recruitment.nsf/0/82046AF7789368DCC1257D5700262C39?opendocument",
-      "note": "Open year-round through their job portal. Useful for flagging interest in the 2027 trainee intake early."
+      "note": "Open through their job portal, currently listed with an end date of 31 Dec 2026 (it is renewed each year). Useful for flagging interest in the 2027 trainee intake early.",
+      "watch": "https://jobs.mbshipbrokers.com/hrmeasy_recruitment.nsf/ShowJobList?OpenAgent",
+      "watchKey": "unsolicited",
+      "anyDate": true
     },
     {
       "id": "howe-robinson-trainee",
@@ -214,6 +217,19 @@
       "note": "Product tanker owner. Student assistants (15-20 h/week) are hired as departments need them; set up TORM's job agent to be told first."
     },
     {
+      "id": "ultrabulk-talent-pipeline",
+      "company": "Ultrabulk",
+      "role": "Shipping Talent Pipeline (internships, trainee and graduate roles)",
+      "place": "Copenhagen and other offices",
+      "tier": 3,
+      "start": "Flexible",
+      "status": "rolling",
+      "url": "https://ultranav.career.emply.com/ad/shipping-talent-pipeline/5a508z/en",
+      "watch": "https://ultrabulk.com/career/",
+      "watchKey": "intern|trainee|graduate|student",
+      "note": "Dry bulk operator with a large chartering desk. This is an open invitation to be considered for internships, trainee roles and graduate jobs across their offices, with no deadline. Join it now so you are on their list before roles are posted."
+    },
+    {
       "id": "cargill-ot-academy",
       "company": "Cargill Ocean Transportation",
       "role": "Ocean Transportation Academy Trainee",
@@ -223,8 +239,8 @@
       "status": "expected",
       "opens": "2026-11-15",
       "est": true,
-      "url": "https://careers.cargill.com/en/job/schiphol/ocean-transportation-academy-trainee-m-f-d/23251/90269551328",
-      "note": "Chartering and freight trading desk of one of the largest charterers. The 2026 intake started in June; 2027 dates are not published yet."
+      "url": "https://careers.cargill.com/en/search-jobs?k=ocean%20transportation%20academy",
+      "note": "Chartering and freight trading desk of one of the largest charterers. The 2026 intake started in June and its posting has now been taken down; 2027 dates are not published yet, so search Cargill careers for 'Ocean Transportation Academy'."
     },
     {
       "id": "norden-trainee",
@@ -275,17 +291,23 @@
       "role": "Summer Internship 2027",
       "place": "Lysaker, Oslo",
       "tier": 4,
-      "start": "June 2027 (6 weeks)",
+      "start": "14 June 2027 (6 weeks)",
       "status": "open",
       "deadline": "2026-10-25",
-      "url": "https://www.finn.no/job/search?q=Wilhelmsen%20Summer%20Internship%202027",
-      "note": "Shipowner and ship manager. Project in weeks 24-26 and 30-32. Students graduating in 2028 are prioritised."
+      "url": "https://wilhelmsen.wd3.myworkdayjobs.com/Wilhelmsen/job/Lysaker/Wilhelmsen-Summer-Internship-2027_JOBREQ_13100",
+      "note": "Shipowner and ship manager. Deadline 25 Oct confirmed on the NHHS job board; starts 14 June 2027 at the Lysaker head office. Project in weeks 24-26 and 30-32. Students graduating in 2028 are prioritised, so stress your interest in staying on. Apply through Wilhelmsen's Workday page.",
+      "watch": "https://www.nu.nhhs.no/jobs/2052/details",
+      "watchKey": "wilhelmsen|summer internship 2027"
     }
   ],
   "log": [
     {
       "date": "2026-10-16",
       "summary": "First full search. 19 opportunities across Clarksons, 10 other shipbrokers, 4 chartering desks and 2 other shipping roles. New finds: Clarksons Denmark one-year Shipbroker Intern route, MB Shipbrokers student assistant deadline 30 Oct, Centalion graduate programme open now."
+    },
+    {
+      "date": "2026-10-16",
+      "summary": "Second check today. Re-checked all items on their own pages plus Clarksons careers search, NHHS, finn.no, Jobindex, Danish Shipping and broker careers pages. Added Ultrabulk Shipping Talent Pipeline (rolling). Confirmed Wilhelmsen deadline 25 Oct and start 14 June 2027, and updated its link. MB unsolicited application now runs to 31 Dec 2026. Cargill 2026 posting removed. Found Clarksons Oslo Summer Internship 2027 had already closed (2 Oct), so not added. No 2027 dates yet for Clarksons GTBP, Ifchor, BRS, Lightship or Braemar."
     }
   ]
 }
