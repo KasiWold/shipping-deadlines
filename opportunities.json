@@ -29,7 +29,7 @@
       "id": "clarksons-gtbp-2027",
       "company": "Clarksons",
       "role": "Global Trainee Broker Programme 2027",
-      "place": "Oslo, Hamburg, Geneva and more",
+      "place": "Oslo, London, Singapore, Dubai, Hamburg, New York and more",
       "tier": 1,
       "start": "Autumn 2027 (2026 cohort started 28 Sept)",
       "status": "expected",
@@ -43,7 +43,7 @@
         "https://careers.clarksons.com/search/?q=trainee"
       ],
       "watchKey": "trainee broker programme|global trainee broker|\\b2027 intake\\b",
-      "note": "The flagship route to becoming a Clarksons broker. Last round, London closed 16 Feb 2026 and other offices stayed open longer; the 2026 cohort covered Oslo, Hamburg, Aberdeen and Edinburgh, London, New York, Shanghai and Singapore. Opening date is an estimate, set early on purpose so you start checking from 1 November."
+      "note": "The flagship route to becoming a Clarksons broker. Last round, London closed 16 Feb 2026 and other offices stayed open longer. Recent cohorts sat in Oslo, London, Singapore, Dubai, Hamburg, Tokyo, Shanghai, New York and Connecticut, so you can apply to any of them; offices outside the EEA need a work visa, so ask about sponsorship for those. Opening date is an estimate, set early on purpose so you start checking from 1 November."
     },
     {
       "id": "clarksons-monaco-office",
@@ -56,7 +56,8 @@
       "url": "https://careers.clarksons.com/Clarksons/job/Monaco-New-Monaco-Office-%28various-opportunities-available%29-MC/1172355601/",
       "watch": "https://careers.clarksons.com/search/?q=Monaco",
       "watchKey": "\\bmonaco\\b",
-      "note": "Listed on Clarksons' own job board (posted 14 Oct 2026) as a new office with various opportunities. It is not an entry-level programme, and Monaco is outside the EU/EEA, so a work permit is needed. Worth a short email to Clarksons expressing interest, ideally through your Clarksons Copenhagen contact."
+      "note": "Listed on Clarksons' own job board (posted 14 Oct 2026) as a new office with various opportunities. It is not an entry-level programme, and Monaco is outside the EU/EEA, so a work permit is needed. Worth a short email to Clarksons expressing interest, ideally through your Clarksons Copenhagen contact.",
+      "visa": "permit"
     },
     {
       "id": "mb-student-market-research",
@@ -91,13 +92,13 @@
       "id": "howe-robinson-trainee",
       "company": "Howe Robinson",
       "role": "Trainee Shipbroker",
-      "place": "All offices",
+      "place": "All offices (London, Singapore, Hong Kong, Dubai, Greece, Hamburg, Copenhagen, Bergen, Geneva and more)",
       "tier": 2,
       "start": "Flexible",
       "status": "rolling",
       "url": "https://www.howerobinson.com/directory/careers/trainee-shipbroker/",
       "watch": "https://www.howerobinson.com/directory/careers/trainee-shipbroker/",
-      "note": "Howe Robinson says trainee opportunities exist in all its offices and departments. Its European offices include Copenhagen, Bergen, Kristiansand, Hamburg, Geneva and Greece. Send CV and cover letter to recruitment@howerob.com quoting reference TR20 and name the office you want."
+      "note": "Howe Robinson says trainee opportunities exist in all its offices and departments, and that it regularly takes summer interns. Send CV and cover letter to recruitment@howerob.com quoting reference TR20 and name the office you want. Offices outside the EEA need a work visa."
     },
     {
       "id": "fearnleys-open",
@@ -171,7 +172,7 @@
       "id": "fearnleys-summer-2027",
       "company": "Fearnleys",
       "role": "Summer Internship 2027",
-      "place": "Oslo, Geneva and more",
+      "place": "London, Oslo, Geneva and more",
       "tier": 2,
       "start": "Summer 2027",
       "status": "expected",
@@ -182,7 +183,7 @@
       "url": "https://fearnleys.com/careers/",
       "watch": "https://fearnleys.com/careers/",
       "watchKey": "\\bintern(ship)?s?\\b|\\bsummer\\b",
-      "note": "Fearnleys' 2026 summer programme (London, 29 June to 21 August) closed 27 March 2026. Oslo and Geneva dates are not published, so email career@fearnleys.com now and ask."
+      "note": "Fearnleys' 2026 summer programme was in London (29 June to 21 August) and closed 27 March 2026. Oslo, Geneva and Singapore dates are not published, so email career@fearnleys.com now and ask. London needs a UK work visa."
     },
     {
       "id": "mb-trainee-2027",
@@ -229,7 +230,7 @@
       "url": "https://www.ssyglobal.com/trainee-scheme",
       "watch": "https://www.ssyglobal.com/trainee-scheme",
       "watchKey": "trainee scheme|\\btrainee\\b",
-      "note": "12-month desk-based trainee scheme. SSY's February 2026 round took trainees in London, Athens, Oslo, Bergen and Hamburg; that round opened 9 February 2026. Name Oslo, Bergen or Hamburg when you apply."
+      "note": "12-month desk-based trainee scheme. SSY's February 2026 round took trainees in London, Athens, Oslo, Bergen and Hamburg; that round opened 9 February 2026. Name the office you want when you apply; London needs a UK work visa, Oslo, Bergen, Hamburg and Athens do not."
     },
     {
       "id": "torm-student",
@@ -261,14 +262,14 @@
       "id": "cargill-ot-academy",
       "company": "Cargill Ocean Transportation",
       "role": "Ocean Transportation Academy Trainee",
-      "place": "Geneva/Amsterdam (Schiphol)",
+      "place": "Geneva, Singapore, Amsterdam or Coral Gables (Miami)",
       "tier": 3,
       "start": "Around June 2027",
       "status": "expected",
       "opens": "2026-11-15",
       "est": true,
       "url": "https://careers.cargill.com/en/search-jobs?k=ocean%20transportation%20academy",
-      "note": "Chartering and freight trading desk of one of the largest charterers. The 2026 intake started in June and its posting has now been taken down; 2027 dates are not published yet, so search Cargill careers for 'Ocean Transportation Academy'."
+      "note": "Chartering and freight trading desk of one of the largest charterers. The 2026 intake ran in Geneva, Singapore and Coral Gables and its postings have now been taken down; 2027 dates are not published yet, so search Cargill careers for 'Ocean Transport'. Singapore and the US need a work visa."
     },
     {
       "id": "western-bulk-commercial-trainee",
@@ -374,6 +375,177 @@
       "watch": "https://www.ldc.com/careers/graduates/global-graduate-programs/",
       "watchKey": "\\bgraduate\\b|\\bemea\\b",
       "note": "Agricultural commodity trader with a large freight desk in Geneva. The 2026 programme was Geneva-based for 18 months and closed 6 March 2026, so dates for 2027 are estimates. Rotations cover trading and operations; freight is not guaranteed."
+    },
+    {
+      "id": "clarksons-houston-trainee-broker",
+      "company": "Clarksons",
+      "role": "Trainee Broker, Houston (crude oil)",
+      "place": "Houston, USA",
+      "tier": 1,
+      "start": "Not stated",
+      "status": "rolling",
+      "visa": "permit",
+      "url": "https://careers.clarksons.com/Clarksons/job/Houston-Trainee-Broker-TX-77001/1426816233/",
+      "watch": "https://careers.clarksons.com/Clarksons/job/Houston-Trainee-Broker-TX-77001/1426816233/",
+      "watchKey": "\\btrainee broker\\b|\\bfilled\\b",
+      "note": "Posted 13 Oct 2026 on the crude oil desk (Link Crude and Link Futures). Training is provided and the job includes taking the US Series 3 and 30 licences. No closing date, so apply early. The ad says nothing about work authorisation; a Norwegian needs a US work visa, so ask Clarksons whether they sponsor."
+    },
+    {
+      "id": "clarksons-london-summer-2027",
+      "company": "Clarksons",
+      "role": "Broking Summer Internship 2027, London",
+      "place": "London",
+      "tier": 1,
+      "start": "Mid June to mid July 2027 (2026 ran 15 Jun to 17 Jul)",
+      "status": "expected",
+      "opens": "2026-12-01",
+      "est": true,
+      "deadline": "2027-02-09",
+      "deadlineEst": true,
+      "visa": "nosponsor",
+      "url": "https://www.clarksons.com/home/careers/early-careers/broking-summer-internship",
+      "watch": [
+        "https://www.clarksons.com/home/careers/early-careers/broking-summer-internship",
+        "https://careers.clarksons.com/search/?q=intern"
+      ],
+      "watchKey": "summer internship|\\b2027\\b",
+      "note": "Five weeks rotating across Clarksons' London broking desks, and it can lead to a full-time job. The 2026 round closed 9 Feb 2026. Clarksons requires the right to work in the UK and says it cannot sponsor visas, and Norwegians are not in the UK Youth Mobility Scheme, so this only works if you get UK work rights another way. Clarksons' Oslo summer internship 2027 closed in early October 2026."
+    },
+    {
+      "id": "braemar-trainee-2027",
+      "company": "Braemar",
+      "role": "Trainee Broker Programme 2027",
+      "place": "London",
+      "tier": 2,
+      "start": "September 2027",
+      "status": "expected",
+      "opens": "2027-03-15",
+      "est": true,
+      "deadline": "2027-04-19",
+      "deadlineEst": true,
+      "visa": "permit",
+      "url": "https://braemar.com/careers/trainee-broker-programme/",
+      "watch": [
+        "https://braemar.com/careers/trainee-broker-programme/",
+        "https://braemar.com/news-insights/"
+      ],
+      "watchKey": "trainee broker programme|\\b2027\\b",
+      "note": "Braemar says its next round opens in 2027. The 2026 round opened 18 March and closed 19 April 2026 for a September start, with the final round in person in London. The page says nothing about visa sponsorship, so ask."
+    },
+    {
+      "id": "gibson-trainee-scheme",
+      "company": "Gibson Shipbrokers",
+      "role": "Trainee Broker Scheme (next intake)",
+      "place": "London, Singapore, Dubai, Athens, Hong Kong, Houston, Mumbai",
+      "tier": 2,
+      "start": "Not announced",
+      "status": "expected",
+      "est": true,
+      "visa": "permit",
+      "url": "https://gibsons.co.uk/careers",
+      "watch": [
+        "https://gibsons.co.uk/careers",
+        "https://ea-gibson.breezy.hr/"
+      ],
+      "watchKey": "trainee broker scheme|next intake|\\btrainee\\b",
+      "note": "Two-year scheme rotating across the company, with time in at least two Gibson offices; selection is an annual assessment centre and interviews. Gibson says details of the next intake are coming soon and welcomes speculative applications (enquiries@eagibson.co.uk). Athens is visa-free for you; the other offices need a work visa."
+    },
+    {
+      "id": "pacific-basin-graduate-2027",
+      "company": "Pacific Basin",
+      "role": "Graduate Trainee Programme 2027",
+      "place": "Hong Kong and other offices",
+      "tier": 3,
+      "start": "2027",
+      "status": "expected",
+      "opens": "2026-12-15",
+      "est": true,
+      "visa": "permit",
+      "url": "https://www.pacificbasin.com/en/careers/graduates.php",
+      "watch": "https://www.pacificbasin.com/en/careers/graduates.php",
+      "watchKey": "\\bgraduate\\b|\\b2027\\b",
+      "note": "Two-year rotation through commercial operations, chartering, bunkers and claims at one of the largest dry bulk owners. Pacific Basin says it will publish 2027 details by the end of this year; last time you applied by email to recruiting@pacificbasin.com naming the position and location. Hong Kong needs an employer-sponsored work visa."
+    },
+    {
+      "id": "bp-sts-2027",
+      "company": "bp",
+      "role": "Trading & Shipping graduate or intern 2027 (UK)",
+      "place": "London (UK)",
+      "tier": 3,
+      "start": "Graduate 6 Sep 2027; internship 21 Jun to 3 Sep 2027",
+      "status": "expected",
+      "opens": "2026-10-14",
+      "est": true,
+      "visa": "permit",
+      "url": "https://www.brightnetwork.co.uk/graduate-jobs/bp/supply-trading-shipping-graduate-programme-2027",
+      "watch": [
+        "https://careers.bp.com/early-careers/graduates",
+        "https://careers.bp.com/early-careers/internships"
+      ],
+      "watchKey": "supply, trading|\\bshipping\\b|applications open",
+      "note": "bp's Supply, Trading & Shipping graduate programme (three years) and 11-week summer internship for 2027. bp's listing says recruitment opened on 14 October and runs on a rolling basis, so places can go early, but bp's own careers page still says 'opening soon', so check it now. bp lets you make only one early-careers application worldwide per year, so pick graduate or internship. Visa sponsorship is not mentioned."
+    },
+    {
+      "id": "oldendorff-operations-2027",
+      "company": "Oldendorff Carriers",
+      "role": "Operations Trainee Program 2027",
+      "place": "Hamburg and Lübeck",
+      "tier": 3,
+      "start": "2027",
+      "status": "rolling",
+      "visa": "free",
+      "url": "https://oldendorff.com/traineeships/other-trainee-programs",
+      "watch": "https://oldendorff.com/traineeships/other-trainee-programs",
+      "watchKey": "operations trainee|\\b2027\\b",
+      "note": "Applications for the 2027 programme are open now, with no closing date shown, so apply early. The working language is English and you need a completed or nearly completed degree. Operations at one of the largest dry bulk operators works side by side with the chartering desk. Oldendorff's German-language requirement applies to its apprenticeship, not this programme."
+    },
+    {
+      "id": "oldendorff-chartering-2027",
+      "company": "Oldendorff Carriers",
+      "role": "Advanced Chartering Program 2027",
+      "place": "Hamburg/Lübeck, Singapore or Dubai",
+      "tier": 3,
+      "start": "Six-week paid internship from September 2027, then a 12-month traineeship from October",
+      "status": "expected",
+      "opens": "2026-10-01",
+      "est": true,
+      "url": "https://www.oldendorff.com/traineeships/chartering",
+      "watch": [
+        "https://www.oldendorff.com/traineeships/chartering",
+        "https://www.oldendorff.com/traineeships"
+      ],
+      "watchKey": "chartering|\\b2027\\b",
+      "note": "Chartering traineeship: a paid internship first, then three interns are offered the 12-month traineeship. Oldendorff's overview page says applications for selected 2027 programmes are open, but the chartering page still only says 2026 is closed, so check both and email if unclear. Germany is visa-free for you; Singapore and Dubai need a work visa."
+    },
+    {
+      "id": "oldendorff-research-trainee",
+      "company": "Oldendorff Carriers",
+      "role": "Research Trainee Program (2026/2027 intake)",
+      "place": "Singapore (rotations in Hamburg, London and China)",
+      "tier": 3,
+      "start": "Not stated",
+      "status": "rolling",
+      "visa": "permit",
+      "url": "https://www.oldendorff.com/traineeships/research",
+      "watch": "https://www.oldendorff.com/traineeships/research",
+      "watchKey": "\\bresearch\\b|\\b2027\\b",
+      "note": "Dry bulk market research trainee programme with applications for the 2026 and 2027 intakes open on a rolling basis. For final-year students or graduates of the past two years in economics, finance, business or similar. Singapore needs an Employment Pass from the employer."
+    },
+    {
+      "id": "vitol-london-2027",
+      "company": "Vitol",
+      "role": "Early Careers 2027, London",
+      "place": "London",
+      "tier": 3,
+      "start": "2027",
+      "status": "expected",
+      "opens": "2026-12-15",
+      "est": true,
+      "visa": "permit",
+      "url": "https://www.vitol.com/vitol-early-careers",
+      "watch": "https://www.vitol.com/vitol-early-careers",
+      "watchKey": "\\bgraduate\\b|\\bintern(ship)?s?\\b|applications",
+      "note": "London early-careers roles at the world's largest independent oil trader, which runs one of the biggest tanker chartering desks. Applications are closed now and Vitol says to check back in winter, so the opening date is an estimate. For final-year students and recent graduates."
     }
   ],
   "log": [
@@ -408,6 +580,24 @@
     {
       "date": "2026-10-19",
       "summary": "Full audit. Re-checked every entry against its source and searched Norway, Denmark, Switzerland, Germany, Sweden, Greece and the Netherlands, plus Clarksons' full job board, NHH, finn.no, Jobindex, jobs.ch and commodity traders in Geneva and Zug. Added Golar LNG Summer Internship 2027 (deadline 8 Nov) and Louis Dreyfus EMEA Commercial Graduate Program 2027 (Geneva, expected Jan to Mar). Corrected Western Bulk (usually open by mid-October), Fearnleys summer (last deadline 27 March), MB trainee (opens around mid-February), Clarksons trainee programme (check from 1 November), Ifchor locations and Howe Robinson offices. Left out: Glencore graduate (London), Trafigura Geneva (closed), Oldendorff (German required), Fred. Olsen Windcarrier and Klaveness summer (engineering only), Equinor and Fearnley Securities (closed)."
+    },
+    {
+      "date": "2026-10-19",
+      "summary": "Scope widened to every country, including London, Singapore, Hong Kong, Dubai and the US; visa needs are now shown on each entry instead of being a reason to leave it out. Added Clarksons Trainee Broker Houston (open, crude desk), Clarksons London Broking Summer Internship 2027 (UK work rights needed, no sponsorship), Braemar Trainee Broker Programme 2027 (London, last round 18 Mar to 19 Apr), Gibson Trainee Broker Scheme, Pacific Basin Graduate Trainee 2027 (Hong Kong), bp Supply, Trading & Shipping graduate and internship 2027 (UK), Oldendorff Operations Trainee 2027 (Hamburg, open), Advanced Chartering Program 2027 and Research Trainee (Singapore, open), and Vitol London early careers. Updated locations for the Clarksons trainee programme, Howe Robinson, Fearnleys, SSY and Cargill. Checked and left out: Clarksons Singapore LNG trainee (3 years' experience), Hong Kong S&P trainee (filled), Tokyo analyst (native Japanese), Clarksons Securities Oslo summer 2027 (closed), Trafigura 2027 graduate (closed), BW Future Leaders (Singapore graduates), Oldendorff Singapore operations (Singapore citizens and PR only), Maritime Trainee 2027 (needs a master's), Maersk UK graduate (logistics, no sponsorship), McQuilling (5 years' experience)."
+    }
+  ],
+  "ignore": [
+    {
+      "match": "1433289933",
+      "why": "Clarksons Trainee Broker (LNG), Singapore: requires at least 3 years as a shipbroker"
+    },
+    {
+      "match": "1381968833",
+      "why": "Clarksons Trainee Shipbroker (S&P), Hong Kong: position filled"
+    },
+    {
+      "match": "1417558233",
+      "why": "Clarksons Junior Commercial Shipping Analyst, Tokyo: native-level Japanese required"
     }
   ]
 }

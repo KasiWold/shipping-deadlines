@@ -61,7 +61,7 @@ let TRACKED = [
     "id": "clarksons-gtbp-2027",
     "company": "Clarksons",
     "role": "Global Trainee Broker Programme 2027",
-    "place": "Oslo, Hamburg, Geneva and more",
+    "place": "Oslo, London, Singapore, Dubai, Hamburg, New York and more",
     "tier": 1,
     "start": "Autumn 2027 (2026 cohort started 28 Sept)",
     "status": "expected",
@@ -75,7 +75,7 @@ let TRACKED = [
       "https://careers.clarksons.com/search/?q=trainee"
     ],
     "watchKey": "trainee broker programme|global trainee broker|\\b2027 intake\\b",
-    "note": "The flagship route to becoming a Clarksons broker. Last round, London closed 16 Feb 2026 and other offices stayed open longer; the 2026 cohort covered Oslo, Hamburg, Aberdeen and Edinburgh, London, New York, Shanghai and Singapore. Opening date is an estimate, set early on purpose so you start checking from 1 November."
+    "note": "The flagship route to becoming a Clarksons broker. Last round, London closed 16 Feb 2026 and other offices stayed open longer. Recent cohorts sat in Oslo, London, Singapore, Dubai, Hamburg, Tokyo, Shanghai, New York and Connecticut, so you can apply to any of them; offices outside the EEA need a work visa, so ask about sponsorship for those. Opening date is an estimate, set early on purpose so you start checking from 1 November."
   },
   {
     "id": "clarksons-monaco-office",
@@ -88,7 +88,8 @@ let TRACKED = [
     "url": "https://careers.clarksons.com/Clarksons/job/Monaco-New-Monaco-Office-%28various-opportunities-available%29-MC/1172355601/",
     "watch": "https://careers.clarksons.com/search/?q=Monaco",
     "watchKey": "\\bmonaco\\b",
-    "note": "Listed on Clarksons' own job board (posted 14 Oct 2026) as a new office with various opportunities. It is not an entry-level programme, and Monaco is outside the EU/EEA, so a work permit is needed. Worth a short email to Clarksons expressing interest, ideally through your Clarksons Copenhagen contact."
+    "note": "Listed on Clarksons' own job board (posted 14 Oct 2026) as a new office with various opportunities. It is not an entry-level programme, and Monaco is outside the EU/EEA, so a work permit is needed. Worth a short email to Clarksons expressing interest, ideally through your Clarksons Copenhagen contact.",
+    "visa": "permit"
   },
   {
     "id": "mb-student-market-research",
@@ -123,13 +124,13 @@ let TRACKED = [
     "id": "howe-robinson-trainee",
     "company": "Howe Robinson",
     "role": "Trainee Shipbroker",
-    "place": "All offices",
+    "place": "All offices (London, Singapore, Hong Kong, Dubai, Greece, Hamburg, Copenhagen, Bergen, Geneva and more)",
     "tier": 2,
     "start": "Flexible",
     "status": "rolling",
     "url": "https://www.howerobinson.com/directory/careers/trainee-shipbroker/",
     "watch": "https://www.howerobinson.com/directory/careers/trainee-shipbroker/",
-    "note": "Howe Robinson says trainee opportunities exist in all its offices and departments. Its European offices include Copenhagen, Bergen, Kristiansand, Hamburg, Geneva and Greece. Send CV and cover letter to recruitment@howerob.com quoting reference TR20 and name the office you want."
+    "note": "Howe Robinson says trainee opportunities exist in all its offices and departments, and that it regularly takes summer interns. Send CV and cover letter to recruitment@howerob.com quoting reference TR20 and name the office you want. Offices outside the EEA need a work visa."
   },
   {
     "id": "fearnleys-open",
@@ -203,7 +204,7 @@ let TRACKED = [
     "id": "fearnleys-summer-2027",
     "company": "Fearnleys",
     "role": "Summer Internship 2027",
-    "place": "Oslo, Geneva and more",
+    "place": "London, Oslo, Geneva and more",
     "tier": 2,
     "start": "Summer 2027",
     "status": "expected",
@@ -214,7 +215,7 @@ let TRACKED = [
     "url": "https://fearnleys.com/careers/",
     "watch": "https://fearnleys.com/careers/",
     "watchKey": "\\bintern(ship)?s?\\b|\\bsummer\\b",
-    "note": "Fearnleys' 2026 summer programme (London, 29 June to 21 August) closed 27 March 2026. Oslo and Geneva dates are not published, so email career@fearnleys.com now and ask."
+    "note": "Fearnleys' 2026 summer programme was in London (29 June to 21 August) and closed 27 March 2026. Oslo, Geneva and Singapore dates are not published, so email career@fearnleys.com now and ask. London needs a UK work visa."
   },
   {
     "id": "mb-trainee-2027",
@@ -261,7 +262,7 @@ let TRACKED = [
     "url": "https://www.ssyglobal.com/trainee-scheme",
     "watch": "https://www.ssyglobal.com/trainee-scheme",
     "watchKey": "trainee scheme|\\btrainee\\b",
-    "note": "12-month desk-based trainee scheme. SSY's February 2026 round took trainees in London, Athens, Oslo, Bergen and Hamburg; that round opened 9 February 2026. Name Oslo, Bergen or Hamburg when you apply."
+    "note": "12-month desk-based trainee scheme. SSY's February 2026 round took trainees in London, Athens, Oslo, Bergen and Hamburg; that round opened 9 February 2026. Name the office you want when you apply; London needs a UK work visa, Oslo, Bergen, Hamburg and Athens do not."
   },
   {
     "id": "torm-student",
@@ -293,14 +294,14 @@ let TRACKED = [
     "id": "cargill-ot-academy",
     "company": "Cargill Ocean Transportation",
     "role": "Ocean Transportation Academy Trainee",
-    "place": "Geneva/Amsterdam (Schiphol)",
+    "place": "Geneva, Singapore, Amsterdam or Coral Gables (Miami)",
     "tier": 3,
     "start": "Around June 2027",
     "status": "expected",
     "opens": "2026-11-15",
     "est": true,
     "url": "https://careers.cargill.com/en/search-jobs?k=ocean%20transportation%20academy",
-    "note": "Chartering and freight trading desk of one of the largest charterers. The 2026 intake started in June and its posting has now been taken down; 2027 dates are not published yet, so search Cargill careers for 'Ocean Transportation Academy'."
+    "note": "Chartering and freight trading desk of one of the largest charterers. The 2026 intake ran in Geneva, Singapore and Coral Gables and its postings have now been taken down; 2027 dates are not published yet, so search Cargill careers for 'Ocean Transport'. Singapore and the US need a work visa."
   },
   {
     "id": "western-bulk-commercial-trainee",
@@ -406,8 +407,181 @@ let TRACKED = [
     "watch": "https://www.ldc.com/careers/graduates/global-graduate-programs/",
     "watchKey": "\\bgraduate\\b|\\bemea\\b",
     "note": "Agricultural commodity trader with a large freight desk in Geneva. The 2026 programme was Geneva-based for 18 months and closed 6 March 2026, so dates for 2027 are estimates. Rotations cover trading and operations; freight is not guaranteed."
+  },
+  {
+    "id": "clarksons-houston-trainee-broker",
+    "company": "Clarksons",
+    "role": "Trainee Broker, Houston (crude oil)",
+    "place": "Houston, USA",
+    "tier": 1,
+    "start": "Not stated",
+    "status": "rolling",
+    "visa": "permit",
+    "url": "https://careers.clarksons.com/Clarksons/job/Houston-Trainee-Broker-TX-77001/1426816233/",
+    "watch": "https://careers.clarksons.com/Clarksons/job/Houston-Trainee-Broker-TX-77001/1426816233/",
+    "watchKey": "\\btrainee broker\\b|\\bfilled\\b",
+    "note": "Posted 13 Oct 2026 on the crude oil desk (Link Crude and Link Futures). Training is provided and the job includes taking the US Series 3 and 30 licences. No closing date, so apply early. The ad says nothing about work authorisation; a Norwegian needs a US work visa, so ask Clarksons whether they sponsor."
+  },
+  {
+    "id": "clarksons-london-summer-2027",
+    "company": "Clarksons",
+    "role": "Broking Summer Internship 2027, London",
+    "place": "London",
+    "tier": 1,
+    "start": "Mid June to mid July 2027 (2026 ran 15 Jun to 17 Jul)",
+    "status": "expected",
+    "opens": "2026-12-01",
+    "est": true,
+    "deadline": "2027-02-09",
+    "deadlineEst": true,
+    "visa": "nosponsor",
+    "url": "https://www.clarksons.com/home/careers/early-careers/broking-summer-internship",
+    "watch": [
+      "https://www.clarksons.com/home/careers/early-careers/broking-summer-internship",
+      "https://careers.clarksons.com/search/?q=intern"
+    ],
+    "watchKey": "summer internship|\\b2027\\b",
+    "note": "Five weeks rotating across Clarksons' London broking desks, and it can lead to a full-time job. The 2026 round closed 9 Feb 2026. Clarksons requires the right to work in the UK and says it cannot sponsor visas, and Norwegians are not in the UK Youth Mobility Scheme, so this only works if you get UK work rights another way. Clarksons' Oslo summer internship 2027 closed in early October 2026."
+  },
+  {
+    "id": "braemar-trainee-2027",
+    "company": "Braemar",
+    "role": "Trainee Broker Programme 2027",
+    "place": "London",
+    "tier": 2,
+    "start": "September 2027",
+    "status": "expected",
+    "opens": "2027-03-15",
+    "est": true,
+    "deadline": "2027-04-19",
+    "deadlineEst": true,
+    "visa": "permit",
+    "url": "https://braemar.com/careers/trainee-broker-programme/",
+    "watch": [
+      "https://braemar.com/careers/trainee-broker-programme/",
+      "https://braemar.com/news-insights/"
+    ],
+    "watchKey": "trainee broker programme|\\b2027\\b",
+    "note": "Braemar says its next round opens in 2027. The 2026 round opened 18 March and closed 19 April 2026 for a September start, with the final round in person in London. The page says nothing about visa sponsorship, so ask."
+  },
+  {
+    "id": "gibson-trainee-scheme",
+    "company": "Gibson Shipbrokers",
+    "role": "Trainee Broker Scheme (next intake)",
+    "place": "London, Singapore, Dubai, Athens, Hong Kong, Houston, Mumbai",
+    "tier": 2,
+    "start": "Not announced",
+    "status": "expected",
+    "est": true,
+    "visa": "permit",
+    "url": "https://gibsons.co.uk/careers",
+    "watch": [
+      "https://gibsons.co.uk/careers",
+      "https://ea-gibson.breezy.hr/"
+    ],
+    "watchKey": "trainee broker scheme|next intake|\\btrainee\\b",
+    "note": "Two-year scheme rotating across the company, with time in at least two Gibson offices; selection is an annual assessment centre and interviews. Gibson says details of the next intake are coming soon and welcomes speculative applications (enquiries@eagibson.co.uk). Athens is visa-free for you; the other offices need a work visa."
+  },
+  {
+    "id": "pacific-basin-graduate-2027",
+    "company": "Pacific Basin",
+    "role": "Graduate Trainee Programme 2027",
+    "place": "Hong Kong and other offices",
+    "tier": 3,
+    "start": "2027",
+    "status": "expected",
+    "opens": "2026-12-15",
+    "est": true,
+    "visa": "permit",
+    "url": "https://www.pacificbasin.com/en/careers/graduates.php",
+    "watch": "https://www.pacificbasin.com/en/careers/graduates.php",
+    "watchKey": "\\bgraduate\\b|\\b2027\\b",
+    "note": "Two-year rotation through commercial operations, chartering, bunkers and claims at one of the largest dry bulk owners. Pacific Basin says it will publish 2027 details by the end of this year; last time you applied by email to recruiting@pacificbasin.com naming the position and location. Hong Kong needs an employer-sponsored work visa."
+  },
+  {
+    "id": "bp-sts-2027",
+    "company": "bp",
+    "role": "Trading & Shipping graduate or intern 2027 (UK)",
+    "place": "London (UK)",
+    "tier": 3,
+    "start": "Graduate 6 Sep 2027; internship 21 Jun to 3 Sep 2027",
+    "status": "expected",
+    "opens": "2026-10-14",
+    "est": true,
+    "visa": "permit",
+    "url": "https://www.brightnetwork.co.uk/graduate-jobs/bp/supply-trading-shipping-graduate-programme-2027",
+    "watch": [
+      "https://careers.bp.com/early-careers/graduates",
+      "https://careers.bp.com/early-careers/internships"
+    ],
+    "watchKey": "supply, trading|\\bshipping\\b|applications open",
+    "note": "bp's Supply, Trading & Shipping graduate programme (three years) and 11-week summer internship for 2027. bp's listing says recruitment opened on 14 October and runs on a rolling basis, so places can go early, but bp's own careers page still says 'opening soon', so check it now. bp lets you make only one early-careers application worldwide per year, so pick graduate or internship. Visa sponsorship is not mentioned."
+  },
+  {
+    "id": "oldendorff-operations-2027",
+    "company": "Oldendorff Carriers",
+    "role": "Operations Trainee Program 2027",
+    "place": "Hamburg and Lübeck",
+    "tier": 3,
+    "start": "2027",
+    "status": "rolling",
+    "visa": "free",
+    "url": "https://oldendorff.com/traineeships/other-trainee-programs",
+    "watch": "https://oldendorff.com/traineeships/other-trainee-programs",
+    "watchKey": "operations trainee|\\b2027\\b",
+    "note": "Applications for the 2027 programme are open now, with no closing date shown, so apply early. The working language is English and you need a completed or nearly completed degree. Operations at one of the largest dry bulk operators works side by side with the chartering desk. Oldendorff's German-language requirement applies to its apprenticeship, not this programme."
+  },
+  {
+    "id": "oldendorff-chartering-2027",
+    "company": "Oldendorff Carriers",
+    "role": "Advanced Chartering Program 2027",
+    "place": "Hamburg/Lübeck, Singapore or Dubai",
+    "tier": 3,
+    "start": "Six-week paid internship from September 2027, then a 12-month traineeship from October",
+    "status": "expected",
+    "opens": "2026-10-01",
+    "est": true,
+    "url": "https://www.oldendorff.com/traineeships/chartering",
+    "watch": [
+      "https://www.oldendorff.com/traineeships/chartering",
+      "https://www.oldendorff.com/traineeships"
+    ],
+    "watchKey": "chartering|\\b2027\\b",
+    "note": "Chartering traineeship: a paid internship first, then three interns are offered the 12-month traineeship. Oldendorff's overview page says applications for selected 2027 programmes are open, but the chartering page still only says 2026 is closed, so check both and email if unclear. Germany is visa-free for you; Singapore and Dubai need a work visa."
+  },
+  {
+    "id": "oldendorff-research-trainee",
+    "company": "Oldendorff Carriers",
+    "role": "Research Trainee Program (2026/2027 intake)",
+    "place": "Singapore (rotations in Hamburg, London and China)",
+    "tier": 3,
+    "start": "Not stated",
+    "status": "rolling",
+    "visa": "permit",
+    "url": "https://www.oldendorff.com/traineeships/research",
+    "watch": "https://www.oldendorff.com/traineeships/research",
+    "watchKey": "\\bresearch\\b|\\b2027\\b",
+    "note": "Dry bulk market research trainee programme with applications for the 2026 and 2027 intakes open on a rolling basis. For final-year students or graduates of the past two years in economics, finance, business or similar. Singapore needs an Employment Pass from the employer."
+  },
+  {
+    "id": "vitol-london-2027",
+    "company": "Vitol",
+    "role": "Early Careers 2027, London",
+    "place": "London",
+    "tier": 3,
+    "start": "2027",
+    "status": "expected",
+    "opens": "2026-12-15",
+    "est": true,
+    "visa": "permit",
+    "url": "https://www.vitol.com/vitol-early-careers",
+    "watch": "https://www.vitol.com/vitol-early-careers",
+    "watchKey": "\\bgraduate\\b|\\bintern(ship)?s?\\b|applications",
+    "note": "London early-careers roles at the world's largest independent oil trader, which runs one of the biggest tanker chartering desks. Applications are closed now and Vitol says to check back in winter, so the opening date is an estimate. For final-year students and recent graduates."
   }
 ];
+// Live postings already checked and found unsuitable; replaced by the "ignore" list in opportunities.json
+let IGNORE = ["1433289933", "1381968833", "1417558233"];
 
 // ================= LIVE SOURCES =================
 
@@ -435,8 +609,10 @@ const NEWS_QUERY = '("trainee broker" OR "shipbroking trainee" OR "shipbroker tr
 
 const FINN_QUERIES = ["shipbroker", "shipping", "chartering"];
 
-// Every Clarksons vacancy worldwide, newest first, plus targeted searches. Only entry-level roles
-// in offices you can work in without a visa (EU/EEA, Switzerland, Monaco) are kept.
+// Every Clarksons vacancy worldwide, newest first, plus targeted searches. Entry-level roles in
+// every office are kept, wherever they are; roles outside the EEA and Switzerland are marked as
+// needing a work visa. Clarksons also runs port, warehouse and support businesses, so entry-level
+// titles from those (warehouse, accounts, IT and so on) are left out.
 const CLARKSONS_BASE = "https://careers.clarksons.com";
 const CLARKSONS_FEEDS = [
   "/search/?q=&sortColumn=referencedate&sortDirection=desc",
@@ -446,7 +622,9 @@ const CLARKSONS_FEEDS = [
   "/search/?q=graduate",
   "/search/?q=junior",
 ];
-const EUROPE = /\b(oslo|bergen|stavanger|kristiansand|haugesund|ålesund|alesund|trondheim|hellerup|copenhagen|københavn|kobenhavn|aarhus|hamburg|bremen|geneva|genève|geneve|lausanne|zug|zurich|zürich|monaco|athens|piraeus|rotterdam|amsterdam|antwerp|paris|marseille|genoa|genova|milan|stockholm|gothenburg|göteborg|helsinki|madrid|lisbon|limassol|ijmuiden|eemshaven)\b|,\s*(no|dk|de|ch|mc|gr|nl|be|fr|it|se|fi|es|pt|cy|pl|ie)\s*$/i;
+const CLARKSONS_SKIP = /\b(warehouse|driver|technician|mechanic|electrician|engineer(ing)?|billing|accounts?|accountant|accounting|payroll|hr|human resources|recruit\w*|it|developer|software|crew|agency|port|customs|stevedor\w*|facilities|reception\w*|legal|compliance|marketing|apprentice\w*|sales person|administrator|secretary)\b/i;
+// Offices a Norwegian citizen can work in without a work visa (EEA and Switzerland)
+const NO_VISA = /\b(oslo|bergen|stavanger|kristiansand|haugesund|ålesund|alesund|trondheim|hellerup|copenhagen|københavn|kobenhavn|aarhus|hamburg|bremen|geneva|genève|geneve|lausanne|zug|zurich|zürich|athens|piraeus|rotterdam|amsterdam|antwerp|paris|marseille|genoa|genova|milan|stockholm|gothenburg|göteborg|helsinki|madrid|lisbon|limassol|ijmuiden|eemshaven)\b|,\s*(no|dk|de|ch|gr|nl|be|fr|it|se|fi|es|pt|cy|pl|ie)\s*$/i;
 
 const LIVE_FEEDS = [
   ...JOBINDEX_QUERIES.map((q) => ({
@@ -649,13 +827,14 @@ function buildTracker(state, watch) {
   const applied = state.applied || {};
   const rank = (e) => {
     const group = { open: 0, check: 1, rolling: 2, soon: 3, missed: 4 }[e.state];
-    // Most relevant first, except that anything closing within a week jumps to the top
+    // Most relevant first, except that anything closing within a week jumps to the top.
+    // Within a tier, a role whose employer says it cannot sponsor a visa goes after the others.
     const urgent = e.state === "open" && e.days !== undefined && e.days <= 7 ? 0 : 1;
-    return [group, urgent, e.tier || (e.broker === false ? 3 : 2), e.sort];
+    return [group, urgent, e.tier || (e.broker === false ? 3 : 2), e.visa === "nosponsor" ? 1 : 0, e.sort];
   };
   const all = TRACKED.map((it) => evaluate(it, applied, watch)).sort((a, b) => {
     const x = rank(a), y = rank(b);
-    return x[0] - y[0] || x[1] - y[1] || x[2] - y[2] || x[3] - y[3];
+    return x[0] - y[0] || x[1] - y[1] || x[2] - y[2] || x[3] - y[3] || x[4] - y[4];
   });
   if (seenDirty) { writeJSON(SEEN_FILE, SEEN); seenDirty = false; }
   return {
@@ -687,6 +866,10 @@ async function loadRemote(maxAgeHours) {
     // ignore any malformed entry instead of letting it break the widget
     const ok = cache.data.items.filter((it) => it && it.company && it.role && it.status && it.url);
     if (ok.length) TRACKED = ok;
+    if (Array.isArray(cache.data.ignore)) {
+      const ig = cache.data.ignore.map((x) => (x && typeof x === "object" ? x.match : x)).filter((x) => typeof x === "string" && x.length >= 4);
+      IGNORE = ig;
+    }
     if (cache.data.verified) {
       const d = parseDay(cache.data.verified);
       VERIFIED = d ? d.getDate() + " " + MON[d.getMonth()] + " " + d.getFullYear() : cache.data.verified;
@@ -884,10 +1067,10 @@ function parseClarksons(html) {
       .replace(/<(script|style)[\s\S]*?<\/\1>/gi, " ")
       .split(/<[^>]+>/).map((x) => clean(x)).filter((x) => x.length > 1);
     const loc = near.find((x) => /,\s*[A-Z]{2}$/.test(x) && x.length < 50) || slug.split("-")[0];
-    if (!ENTRY_LEVEL.test(role)) continue;
-    if (!EUROPE.test(loc) && !EUROPE.test(slug.split("-")[0])) continue;
+    if (!ENTRY_LEVEL.test(role) || CLARKSONS_SKIP.test(role)) continue;
+    const visa = !NO_VISA.test(loc) && !NO_VISA.test(slug.split("-")[0]);
     const url = m[1].startsWith("http") ? m[1] : CLARKSONS_BASE + m[1];
-    out.push({ company: "Clarksons", role, place: loc, url, time: 0, source: "Clarksons", tier: 1 });
+    out.push({ company: "Clarksons", role, place: loc, url, time: 0, source: "Clarksons", tier: 1, visa: visa ? "permit" : undefined });
   }
   return out;
 }
@@ -928,7 +1111,26 @@ async function fetchFeed(feed) {
   }
 }
 
+// Live postings the research run has checked and found unsuitable (filled, needs years of
+// experience, native Japanese and so on) are listed under "ignore" in opportunities.json, matched
+// by job id or a piece of the link. Filtering happens on display, so a new entry takes effect at
+// once, even on postings already cached.
+const normUrl = (u) => (u || "").toLowerCase().replace(/[?#].*$/, "").replace(/\/+$/, "");
+function isIgnored(it) {
+  const u = normUrl(it.url);
+  return IGNORE.some((m) => u.includes(m.toLowerCase()));
+}
+function visibleLive(live) {
+  if (!live || !Array.isArray(live.items)) return { fetched: 0, items: [] };
+  const tracked = new Set(TRACKED.map((t) => normUrl(t.url)));
+  return Object.assign({}, live, { items: live.items.filter((it) => !isIgnored(it) && !tracked.has(normUrl(it.url))) });
+}
+
 async function getLive(maxAgeHours) {
+  return visibleLive(await fetchLive(maxAgeHours));
+}
+
+async function fetchLive(maxAgeHours) {
   const cache = readJSON(CACHE, null);
   if (cache && Date.now() - cache.fetched < maxAgeHours * 3600000) return cache;
 
@@ -938,8 +1140,8 @@ async function getLive(maxAgeHours) {
   for (const it of lists.flat()) if (!it.time) it.time = firstSeen[it.url] || Date.now();
   const cutoff = Date.now() - LIVE_MAX_AGE_DAYS * 86400000;
   const norm = (s) => (s || "").toLowerCase().replace(/[^a-z0-9]/g, "");
-  const trackedUrls = new Set(TRACKED.map((t) => t.url));
-  const isTracked = (it) => trackedUrls.has(it.url) ||
+  const trackedUrls = new Set(TRACKED.map((t) => normUrl(t.url)));
+  const isTracked = (it) => trackedUrls.has(normUrl(it.url)) ||
     TRACKED.some((t) => norm(it.role) === norm(t.role) && norm(it.company).startsWith(norm(t.company)));
   const seen = new Set();
   const items = [];
@@ -1031,6 +1233,7 @@ function liveRow(it) {
     role: it.role,
     url: it.url,
     place: it.place,
+    visa: it.visa,
     dateLabel: it.source === "News" ? "News" : "New",
     chip: ago(it.time),
     color: it.source === "Clarksons" ? C.gold : it.source === "News" ? C.grey : C.blue,
@@ -1229,7 +1432,7 @@ async function showList(state, live, watch) {
       r.height = e.note ? 92 : 64;
       r.dismissOnSelect = false;
       const when = describe(e);
-      const sub = [TIER_NAMES[e.tier] || "", when, e.start ? "Start: " + e.start : "", e.place, e.note].filter(Boolean).join("  \u00B7  ");
+      const sub = [TIER_NAMES[e.tier] || "", when, e.start ? "Start: " + e.start : "", e.place, VISA_NOTES[e.visa] || "", e.note].filter(Boolean).join("  \u00B7  ");
       const c = r.addText((e.applied ? "\u2713 " : "") + e.company + "  \u00B7  " + e.role, sub);
       c.titleFont = Font.semiboldSystemFont(15);
       c.subtitleFont = Font.systemFont(12);
@@ -1268,6 +1471,10 @@ async function showList(state, live, watch) {
 }
 
 const TIER_NAMES = { 1: "Clarksons", 2: "Shipbroker", 3: "Chartering desk", 4: "Other shipping" };
+const VISA_NOTES = {
+  permit: "Work visa needed there",
+  nosponsor: "Work visa needed there, and the employer says it cannot sponsor one",
+};
 
 function describe(e) {
   if (e.live) return e.place || "";
@@ -1295,7 +1502,7 @@ if (config.runsInWidget) {
   const param = (args.widgetParameter || "").trim().toLowerCase();
   let w;
   if (family.startsWith("accessory")) {
-    w = buildLock(buildTracker(state, readJSON(WATCH_FILE, {})), family, readJSON(CACHE, null));
+    w = buildLock(buildTracker(state, readJSON(WATCH_FILE, {})), family, visibleLive(readJSON(CACHE, null)));
   } else {
     const [live, watch] = await Promise.all([getLive(CACHE_HOURS), getWatch(WATCH_HOURS)]);
     const tr = buildTracker(state, watch);

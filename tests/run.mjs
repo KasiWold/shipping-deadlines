@@ -6,7 +6,7 @@ const ok = (c, msg) => { if (c) passes++; else { fails++; console.log("FAIL:", m
 
 // Load the script's functions without running it: cut at RUN and export what we test
 const lib = SRC.slice(0, SRC.indexOf("// ================= RUN =================")) +
-  "\nreturn { ENTRY_LEVEL, SHIPPING_WORDS, tierOf, analyse, parseClarksons, parseFinn, parseFeed, evaluate, baseEvaluate, buildTracker, parseDay, SEEN, oldYear };";
+  "\nreturn { ENTRY_LEVEL, SHIPPING_WORDS, tierOf, analyse, parseClarksons, parseFinn, parseFeed, evaluate, baseEvaluate, buildTracker, parseDay, SEEN, oldYear, visibleLive, normUrl };";
 function load(opts) { const env = install(opts); const L = (new Function(lib))(); return { env, L }; }
 async function runScript(opts, cfg) { const env = install(opts); globalThis.config = cfg; globalThis.args = { widgetParameter: '' }; await (new Function('return (async () => {' + SRC + '})')())(); return env; }
 
@@ -74,10 +74,31 @@ const cl = `<table><tr class="data-row"><td><a href="/Clarksons/job/Houston-Trai
 <tr class="data-row"><td><a href="/Clarksons/job/Oslo-2027-Trainee-Broker-Programme-%28Oslo%29-Early-Careers/1300000003/" class="jobTitle-link">2027 Trainee Broker Programme (Oslo) - Early Careers</a></td><td><span class="jobLocation">Oslo, NO</span></td></tr>
 <tr class="data-row"><td><a href="/Clarksons/job/Athens-Accounts-Assistant/1300000004/" class="jobTitle-link">Accounts Assistant</a></td><td><span class="jobLocation">Athens, GR</span></td></tr>
 <tr class="data-row"><td><a href="/Clarksons/job/Singapore-Trainee-Broker-%28LNG%29/1300000005/" class="jobTitle-link">Trainee Broker (LNG)</a></td><td><span class="jobLocation">Singapore, SG</span></td></tr>
-<tr class="data-row"><td><a href="/Clarksons/job/London-Graduate-Analyst/1300000006/" class="jobTitle-link">Graduate Analyst</a></td><td><span class="jobLocation">London, GB</span></td></tr></table>`;
+<tr class="data-row"><td><a href="/Clarksons/job/London-Graduate-Analyst/1300000006/" class="jobTitle-link">Graduate Analyst</a></td><td><span class="jobLocation">London, GB</span></td></tr>
+<tr class="data-row"><td><a href="/Clarksons/job/Aberdeen-Trainee-Warehouse-Operative/1300000007/" class="jobTitle-link">Trainee Warehouse Operative</a></td><td><span class="jobLocation">Aberdeen, GB</span></td></tr>
+<tr class="data-row"><td><a href="/Clarksons/job/Ipswich-Junior-Accountant/1300000008/" class="jobTitle-link">Junior Accountant</a></td><td><span class="jobLocation">Ipswich, GB</span></td></tr>
+<tr class="data-row"><td><a href="/Clarksons/job/Great-Yarmouth-Apprentice-Port-Agent/1300000009/" class="jobTitle-link">Trainee Port Agent</a></td><td><span class="jobLocation">Great Yarmouth, GB</span></td></tr>
+<tr class="data-row"><td><a href="/Clarksons/job/Hong-Kong-Trainee-Shipbroker-%28Sale-&-Purchase%29/1300000010/" class="jobTitle-link">Trainee Shipbroker (Sale &amp; Purchase)</a></td><td><span class="jobLocation">Hong Kong, HK</span></td></tr></table>`;
 const pc = L.parseClarksons(cl);
-ok(pc.length === 2, "Clarksons parser keeps exactly the 2 European entry-level roles (got " + pc.length + ": " + pc.map((x) => x.role).join(" / ") + ")");
+const pcRoles = pc.map((x) => x.role).join(" / ");
+ok(pc.length === 6, "Clarksons parser keeps every entry-level broking role worldwide, 6 expected (got " + pc.length + ": " + pcRoles + ")");
+for (const r of ["Houston", "Singapore", "London", "Hong Kong"]) ok(pc.some((x) => x.place.startsWith(r)), "Clarksons role in " + r + " is kept");
+ok(!/Warehouse|Accountant|Port Agent|Accounts/.test(pcRoles), "Clarksons warehouse, accounts and port-agent trainee roles are left out");
 ok(pc.every((x) => x.tier === 1 && x.url.startsWith("https://careers.clarksons.com/Clarksons/job/")), "Clarksons roles are tier 1 with full links");
+ok(pc.filter((x) => x.visa === "permit").map((x) => x.place.split(",")[0]).sort().join(",") === "Hong Kong,Houston,London,Singapore", "roles outside the EEA are marked as needing a visa; Oslo and Hellerup are not");
+
+// ---- 3b. ignore list hides postings already checked, and tracked postings are not shown twice ----
+{
+  const live = { fetched: 1, items: [
+    { company: "Clarksons", role: "Trainee Broker (LNG)", url: "https://careers.clarksons.com/Clarksons/job/Singapore-Trainee-Broker-%28LNG%29/1433289933/" },
+    { company: "Clarksons", role: "Trainee Broker", url: "https://careers.clarksons.com/clarksons/job/houston-trainee-broker-tx-77001/1426816233" },
+    { company: "Clarksons", role: "Graduate Analyst", url: "https://careers.clarksons.com/Clarksons/job/London-Graduate-Analyst/1300000006/" },
+  ] };
+  const v = L.visibleLive(live);
+  ok(v.items.length === 1 && v.items[0].role === "Graduate Analyst", "ignored posting and already-tracked posting (different link spelling) are hidden; the rest stays (got " + v.items.map((x) => x.role).join(" / ") + ")");
+  ok(L.normUrl("https://Careers.clarksons.com/Clarksons/job/X/123/?a=1") === "https://careers.clarksons.com/clarksons/job/x/123", "links are compared without case, query or trailing slash");
+  ok(L.visibleLive(null).items.length === 0, "visibleLive copes with no cache");
+}
 
 // ---- 4. per-programme change detection ----
 {
@@ -126,6 +147,18 @@ ok(pc.every((x) => x.tier === 1 && x.url.startsWith("https://careers.clarksons.c
   const tr = (new Function("__items", lib2))(items);
   ok(tr.act.map((e) => e.id).join(",") === "b,c,a", "order is: closing within a week, then Clarksons, then broker (got " + tr.act.map((e) => e.id).join(",") + ")");
 }
+{
+  const plus = (n) => { const d = new Date(); d.setDate(d.getDate() + n); return d.toISOString().slice(0, 10); };
+  const items = [
+    { id: "ns", company: "Clarksons", role: "London intern", tier: 1, status: "open", deadline: plus(20), url: "u", visa: "nosponsor" },
+    { id: "ok", company: "Clarksons", role: "Oslo trainee", tier: 1, status: "open", deadline: plus(30), url: "u" },
+    { id: "br", company: "Broker", role: "Trainee", tier: 2, status: "open", deadline: plus(10), url: "u" },
+  ];
+  const lib2 = SRC.slice(0, SRC.indexOf("// ================= RUN =================")) + "\nTRACKED = __items; return buildTracker({ applied: {} }, {});";
+  install({});
+  const tr = (new Function("__items", lib2))(items);
+  ok(tr.act.map((e) => e.id).join(",") === "ok,ns,br", "a role the employer cannot sponsor goes after others in its tier, but stays above lower tiers (got " + tr.act.map((e) => e.id).join(",") + ")");
+}
 
 // ---- 6. dates ----
 ok(L.parseDay("2026-13-40") === null && L.parseDay("TBA") === null && L.parseDay(undefined) === null, "bad dates are rejected");
@@ -155,6 +188,19 @@ try {
   const env = await runScript({ net: (u) => u.includes("careers.clarksons.com") ? cl : u.includes("raw.githubusercontent") ? JSON.stringify(data) : new Error("offline") }, { runsInWidget: true, widgetFamily: "medium" });
   ok(env.rec.includes("NEW") && env.rec.some((t) => /Shipbroker Intern/.test(t)), "new Clarksons role appears at the top of the medium widget");
 } catch (e) { ok(false, "crash with Clarksons feed: " + e.message); }
+{
+  const withIgnore = JSON.stringify(Object.assign({}, data, { ignore: [{ match: "1300000001", why: "test" }, { match: "1300000002", why: "test" }] }));
+  try {
+    const env = await runScript({ net: (u) => u.includes("careers.clarksons.com") ? cl : u.includes("raw.githubusercontent") ? withIgnore : new Error("offline") }, { runsInWidget: true, widgetFamily: "medium" });
+    ok(!env.rec.includes("Trainee Broker") && !env.rec.some((t) => /Shipbroker Intern/.test(t)), "postings on the ignore list are hidden from the widget");
+    ok(env.rec.includes("NEW"), "other new Clarksons roles still show");
+  } catch (e) { ok(false, "crash with ignore list: " + e.message); }
+  try {
+    const env = await runScript({ net: (u) => u.includes("careers.clarksons.com") ? cl : u.includes("raw.githubusercontent") ? JSON.stringify(data) : new Error("offline") }, { runsInWidget: false });
+    ok(env.rows().some((r) => /Houston/.test(r) && /Work visa needed there/.test(r)), "full list says a Houston posting needs a work visa");
+    ok(env.rows().some((r) => /Broking Summer Internship 2027, London/.test(r) && /cannot sponsor/.test(r)), "full list shows the London internship with its no-sponsorship note");
+  } catch (e) { ok(false, "crash in full list with Clarksons feed: " + e.message); }
+}
 
 console.log(`\n${passes} passed, ${fails} failed`);
 process.exit(fails ? 1 : 0);

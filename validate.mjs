@@ -26,7 +26,18 @@ for (const it of d.items || []) {
   if (it.watchKey !== undefined) { try { new RegExp(it.watchKey, "i"); } catch (e) { p("watchKey is not a valid regex"); } }
   if (it.watchKey && /(intern|elev|trainee|graduate|student)/i.test(it.watchKey) && !it.watchKey.includes("\\b")) p("watchKey uses a bare word; wrap it in \\b...\\b so it cannot match inside other words");
   if (/[—]/.test(it.note || "") || /[—]/.test(it.role || "")) p("contains an em dash");
-  if (/london only|uk only|right to work in the uk/i.test(it.note || "") && !/oslo|copenhagen|hamburg|geneva|bergen|athens/i.test(it.place)) p("looks UK-only, which is out of scope");
+  // Every country is in scope. Visa needs are shown, never used to leave a role out.
+  if (it.visa !== undefined && !["free", "permit", "nosponsor"].includes(it.visa)) p("visa must be free, permit or nosponsor");
+  if (/cannot sponsor|can't sponsor|unable to provide sponsorship|no sponsorship/i.test(it.note || "") && it.visa !== "nosponsor") p("note says the employer will not sponsor; set visa to nosponsor");
+}
+if (d.ignore !== undefined) {
+  if (!Array.isArray(d.ignore)) problems.push("ignore must be a list");
+  else for (const x of d.ignore) {
+    const m = x && typeof x === "object" ? x.match : x;
+    if (typeof m !== "string" || m.length < 4) problems.push("ignore entry needs a match of at least 4 characters: " + JSON.stringify(x));
+    else if (typeof x === "object" && !x.why) problems.push("ignore entry " + m + " needs a why");
+    else if ((d.items || []).some((it) => (it.url || "").toLowerCase().includes(m.toLowerCase()))) problems.push("ignore entry " + m + " would hide a tracked item");
+  }
 }
 if (problems.length) { console.log("PROBLEMS:\n- " + problems.join("\n- ")); process.exit(1); }
 console.log("OK: " + d.items.length + " opportunities, verified " + d.verified);
