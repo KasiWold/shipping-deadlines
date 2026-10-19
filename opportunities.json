@@ -271,6 +271,23 @@
       "note": "Chartering and freight trading desk of one of the largest charterers. The 2026 intake started in June and its posting has now been taken down; 2027 dates are not published yet, so search Cargill careers for 'Ocean Transportation Academy'."
     },
     {
+      "id": "western-bulk-commercial-trainee",
+      "company": "Western Bulk",
+      "role": "Commercial Trainee (chartering, 12 months)",
+      "place": "Oslo or other Western Bulk offices",
+      "tier": 3,
+      "start": "Flexible, 2027",
+      "status": "expected",
+      "opens": "2026-10-31",
+      "est": true,
+      "deadline": "2026-11-14",
+      "deadlineEst": true,
+      "url": "https://www.westernbulk.com/press/news/kickstart-your-career-in-global-shipping-and-trading",
+      "watch": "https://www.finn.no/job/search?q=Western%20Bulk",
+      "watchKey": "Western Bulk.*(Trainee|trainee)",
+      "note": "Dry bulk operator with a big chartering desk. Last year's round was posted 15 Oct 2025 and closed 7 Nov 2025, leading to a Junior Chartering Manager role; a bachelor's is enough. No 2026 post seen yet, so dates are estimates. You can email trainee@westernbulk.com now to flag interest."
+    },
+    {
       "id": "norden-trainee",
       "company": "Norden",
       "role": "Shipping Trainee, Chartering/Operations",
@@ -348,6 +365,10 @@
     {
       "date": "2026-10-19",
       "summary": "Re-checked all items on their own pages plus Clarksons careers search (Oslo, Hamburg, Geneva, Hellerup, intern, trainee), NHHS, finn.no, Maritime Trainee, Braemar, SSY, BRS, Ifchor, Lightship, Fearnleys, Norden, TORM, Trafigura and Centalion. Added Clarksons new Monaco office (rolling) and SSY Trainee Scheme 2027 (expected Feb 2027). Howe Robinson now lists Copenhagen, Bergen, Hamburg and Geneva. No 2027 dates yet for Clarksons GTBP or Hellerup intern. Skipped: Klaveness summer (engineering only), Clarksons Rotterdam operator (Dutch and experience needed), Trafigura Geneva (closed), Maritime Trainee (only DOF and VARD left, master's level). GitHub push failed again: the repository is not authorized for this session, so only this page was updated."
+    },
+    {
+      "date": "2026-10-19",
+      "summary": "Evening check. Re-checked the Clarksons early careers pages, NHHS, finn.no, Jobindex/jobbank, jobs.ch, Howe Robinson, MB Shipbrokers, Maritime Trainee, Western Bulk, Odfjell, Maersk Tankers and other brokers (Lorentzen & Stemoco, Steensland, Hagland, Bassøe, Braemar, Gibson, Banchero Costa). Added Western Bulk Commercial Trainee (expected, last round 15 Oct to 7 Nov 2025). Found that the Clarksons Oslo Summer Internship 2027 (16 Jun to 11 Aug 2027) closed on 2 Oct 2026, before the radar started, so not added. No other changes; Howe Robinson Geneva handysize role needs two years' experience, Maersk Tankers intern is for ISAT students only. GitHub push succeeded."
     }
   ]
 }
