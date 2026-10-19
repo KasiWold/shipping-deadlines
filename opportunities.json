@@ -70,7 +70,7 @@
       "url": "https://jobs.mbshipbrokers.com/hrmeasy_recruitment.nsf/0/029DB3A9AE8B284EC1258E90002E456A?opendocument",
       "watch": "https://jobs.mbshipbrokers.com/hrmeasy_recruitment.nsf/ShowJobList?OpenAgent",
       "watchKey": "market research",
-      "note": "Two openings: one supporting the container team, one the bulk/tanker team. Deadline confirmed on MB's own job list.",
+      "note": "Two openings: one supporting the container team, one the bulk/tanker team. MB's job list shows 30 Oct, and the posting says they screen and interview on an ongoing basis, so apply as soon as you can.",
       "anyDate": true
     },
     {
@@ -369,6 +369,10 @@
     {
       "date": "2026-10-19",
       "summary": "Evening check. Re-checked the Clarksons early careers pages, NHHS, finn.no, Jobindex/jobbank, jobs.ch, Howe Robinson, MB Shipbrokers, Maritime Trainee, Western Bulk, Odfjell, Maersk Tankers and other brokers (Lorentzen & Stemoco, Steensland, Hagland, Bassøe, Braemar, Gibson, Banchero Costa). Added Western Bulk Commercial Trainee (expected, last round 15 Oct to 7 Nov 2025). Found that the Clarksons Oslo Summer Internship 2027 (16 Jun to 11 Aug 2027) closed on 2 Oct 2026, before the radar started, so not added. No other changes; Howe Robinson Geneva handysize role needs two years' experience, Maersk Tankers intern is for ISAT students only. GitHub push succeeded."
+    },
+    {
+      "date": "2026-10-19",
+      "summary": "Short test run. Re-checked MB Shipbrokers student assistant (posting live, ongoing screening, list deadline 30 Oct), Wilhelmsen Summer Internship 2027 (deadline 25 Oct confirmed on NHHS), Centalion (page could not be opened this run, estimate of 31 Oct kept) and the Clarksons GTBP page (still only says the 2026 intake is closed). No date changes; MB note now says to apply early. GitHub push succeeded."
     }
   ]
 }
