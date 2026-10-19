@@ -19,11 +19,11 @@
       "est": true,
       "url": "https://careers.clarksons.com/search/?q=&locationsearch=Hellerup",
       "watch": [
-        "https://careers.clarksons.com/search/?q=&locationsearch=Hellerup",
-        "https://careers.clarksons.com/search/?q=intern"
+        "https://careers.clarksons.com/search/?q=intern",
+        "https://careers.clarksons.com/search/?q=&locationsearch=Hellerup"
       ],
-      "watchKey": "intern|hellerup|copenhagen",
-      "note": "Clarksons Denmark hired a one-year full-time Shipbroker Intern for 2026 (now filled), and a 2027 version is likely this winter. Your placement at Clarksons Copenhagen is your best lever here, so ask your contact there now when it opens."
+      "watchKey": "\\bintern(ship)?s?\\b.*\\b(hellerup|copenhagen|københavn|denmark)\\b|\\b(hellerup|copenhagen|københavn|denmark)\\b.*\\bintern(ship)?s?\\b",
+      "note": "Clarksons Denmark hired a one-year full-time Shipbroker Intern for 2026 (now filled). A 2027 round has not been announced and the opening date is a guess. The widget checks Clarksons' job list every few hours and puts any new Clarksons role in Europe at the top. Ask your Clarksons Copenhagen contact whether they plan a 2027 intern."
     },
     {
       "id": "clarksons-gtbp-2027",
@@ -33,7 +33,7 @@
       "tier": 1,
       "start": "Autumn 2027 (2026 cohort started 28 Sept)",
       "status": "expected",
-      "opens": "2026-12-01",
+      "opens": "2026-11-01",
       "est": true,
       "deadline": "2027-02-15",
       "deadlineEst": true,
@@ -42,8 +42,8 @@
         "https://www.clarksons.com/home/careers/early-careers/global-trainee-broker-programme/",
         "https://careers.clarksons.com/search/?q=trainee"
       ],
-      "watchKey": "trainee|programme|program|applications",
-      "note": "The flagship route to becoming a Clarksons broker. Last round, London closed 16 Feb 2026 and other offices stayed open longer. Two years with first-year rotations; Oslo had its own 2026 listing. Checked 16 Oct: the programme page still says only that the 2026 intake is closed."
+      "watchKey": "trainee broker programme|global trainee broker|\\b2027 intake\\b",
+      "note": "The flagship route to becoming a Clarksons broker. Last round, London closed 16 Feb 2026 and other offices stayed open longer; the 2026 cohort covered Oslo, Hamburg, Aberdeen and Edinburgh, London, New York, Shanghai and Singapore. Opening date is an estimate, set early on purpose so you start checking from 1 November."
     },
     {
       "id": "clarksons-monaco-office",
@@ -55,8 +55,8 @@
       "status": "rolling",
       "url": "https://careers.clarksons.com/Clarksons/job/Monaco-New-Monaco-Office-%28various-opportunities-available%29-MC/1172355601/",
       "watch": "https://careers.clarksons.com/search/?q=Monaco",
-      "watchKey": "Monaco",
-      "note": "Clarksons is opening an office in Monaco (dry cargo, tankers, gas, S&P and more) and invites interest across experience levels. Reposted 14 Oct 2026. Monaco is outside the EU/EEA, so ask careers@clarksons.com whether they would hire a junior and handle the Monaco work permit."
+      "watchKey": "\\bmonaco\\b",
+      "note": "Listed on Clarksons' own job board (posted 14 Oct 2026) as a new office with various opportunities. It is not an entry-level programme, and Monaco is outside the EU/EEA, so a work permit is needed. Worth a short email to Clarksons expressing interest, ideally through your Clarksons Copenhagen contact."
     },
     {
       "id": "mb-student-market-research",
@@ -84,7 +84,7 @@
       "url": "https://jobs.mbshipbrokers.com/hrmeasy_recruitment.nsf/0/82046AF7789368DCC1257D5700262C39?opendocument",
       "note": "Open through their job portal, currently listed with an end date of 31 Dec 2026 (it is renewed each year). Useful for flagging interest in the 2027 trainee intake early.",
       "watch": "https://jobs.mbshipbrokers.com/hrmeasy_recruitment.nsf/ShowJobList?OpenAgent",
-      "watchKey": "unsolicited",
+      "watchKey": "\\bunsolicited\\b",
       "anyDate": true
     },
     {
@@ -97,7 +97,7 @@
       "status": "rolling",
       "url": "https://www.howerobinson.com/directory/careers/trainee-shipbroker/",
       "watch": "https://www.howerobinson.com/directory/careers/trainee-shipbroker/",
-      "note": "Trainee places listed as open in all offices, including Copenhagen, Bergen, Kristiansand, Hamburg and Geneva. Send CV and cover letter to recruitment@howerob.com quoting reference TR20 and name the office you want."
+      "note": "Howe Robinson says trainee opportunities exist in all its offices and departments. Its European offices include Copenhagen, Bergen, Kristiansand, Hamburg, Geneva and Greece. Send CV and cover letter to recruitment@howerob.com quoting reference TR20 and name the office you want."
     },
     {
       "id": "fearnleys-open",
@@ -121,7 +121,7 @@
       "status": "rolling",
       "url": "https://grieg.no/?p=945",
       "watch": "https://grieg.no/?p=945",
-      "note": "General open application on their careers page. They also run summer intern places in Bergen."
+      "note": "Grieg Shipbrokers (Bergen and Oslo) has run summer intern places in dry bulk, offshore and maritime finance; the 2026 places were filled. No 2027 round is posted yet. Send an open application now so you are considered."
     },
     {
       "id": "lightship-open",
@@ -139,7 +139,7 @@
       "id": "ifchor-igtp-2027",
       "company": "Ifchor Galbraiths",
       "role": "IG Talent Programme 2027",
-      "place": "Lausanne, Geneva and global",
+      "place": "Lausanne or London (not specified)",
       "tier": 2,
       "start": "2027 (month not confirmed)",
       "status": "expected",
@@ -149,8 +149,8 @@
       "deadlineEst": true,
       "url": "https://ifchorgalbraiths.com/careers/",
       "watch": "https://ifchorgalbraiths.com/careers/",
-      "watchKey": "talent|igtp|trainee|applications",
-      "note": "12-month shipbroking programme. The 2026 round closed 31 January 2026."
+      "watchKey": "talent programme|\\bigtp\\b|\\btrainee\\b",
+      "note": "12-month shipbroking programme. The 2026 round closed 31 January 2026. Eligible with a business education. Ifchor Galbraiths' offices are Lausanne and London; the page does not say where trainees sit."
     },
     {
       "id": "steem1960-trainee",
@@ -175,14 +175,14 @@
       "tier": 2,
       "start": "Summer 2027",
       "status": "expected",
-      "opens": "2027-01-15",
+      "opens": "2027-02-01",
       "est": true,
-      "deadline": "2027-03-01",
+      "deadline": "2027-03-27",
       "deadlineEst": true,
       "url": "https://fearnleys.com/careers/",
       "watch": "https://fearnleys.com/careers/",
-      "watchKey": "intern",
-      "note": "Previous London and Singapore rounds closed 1 March. Oslo and Geneva dates are not published, so ask career@fearnleys.com now."
+      "watchKey": "\\bintern(ship)?s?\\b|\\bsummer\\b",
+      "note": "Fearnleys' 2026 summer programme (London, 29 June to 21 August) closed 27 March 2026. Oslo and Geneva dates are not published, so email career@fearnleys.com now and ask."
     },
     {
       "id": "mb-trainee-2027",
@@ -192,14 +192,14 @@
       "tier": 2,
       "start": "September 2027",
       "status": "expected",
-      "opens": "2027-03-01",
+      "opens": "2027-02-15",
       "est": true,
       "deadline": "2027-04-30",
       "deadlineEst": true,
       "url": "https://jobs.mbshipbrokers.com/hrmeasy_recruitment.nsf/ShowJobList?OpenAgent",
       "watch": "https://jobs.mbshipbrokers.com/hrmeasy_recruitment.nsf/ShowJobList?OpenAgent",
-      "watchKey": "trainee",
-      "note": "Recruits in March-April. Two years with the Danish Shipping Academy, then a permanent job.",
+      "watchKey": "\\btrainee\\b",
+      "note": "MB's 2026 Copenhagen trainee ad was published 16 Feb 2026, and they recruit through March and April. Two years with the Danish Shipping Academy, then a permanent job.",
       "anyDate": true
     },
     {
@@ -213,7 +213,7 @@
       "est": true,
       "url": "https://www.brsshipbrokers.com/careers",
       "watch": "https://www.brsshipbrokers.com/careers",
-      "watchKey": "graduate",
+      "watchKey": "\\bgraduate\\b",
       "note": "12-month programme rotating through offices and departments. Closed now with no 2027 dates, so also send an unsolicited CV through the page."
     },
     {
@@ -228,8 +228,8 @@
       "est": true,
       "url": "https://www.ssyglobal.com/trainee-scheme",
       "watch": "https://www.ssyglobal.com/trainee-scheme",
-      "watchKey": "trainee|applications|2027",
-      "note": "Desk-based trainee scheme. Opening date is an estimate: the 2024 and 2026 rounds opened on 1 and 9 February, and the September 2026 intake is now closed. Name Oslo or Hamburg when you apply."
+      "watchKey": "trainee scheme|\\btrainee\\b",
+      "note": "12-month desk-based trainee scheme. SSY's February 2026 round took trainees in London, Athens, Oslo, Bergen and Hamburg; that round opened 9 February 2026. Name Oslo, Bergen or Hamburg when you apply."
     },
     {
       "id": "torm-student",
@@ -241,7 +241,7 @@
       "status": "rolling",
       "url": "https://www.torm.com/careers/careers-in-office/programs-in-office/default.aspx",
       "watch": "https://candidate.hr-manager.net/vacancies/list.aspx?customer=torm",
-      "watchKey": "student",
+      "watchKey": "\\b(student|graduate|trainee)s?\\b",
       "note": "Product tanker owner. Student assistants (15-20 h/week) are hired as departments need them; set up TORM's job agent to be told first."
     },
     {
@@ -254,7 +254,7 @@
       "status": "rolling",
       "url": "https://ultranav.career.emply.com/ad/shipping-talent-pipeline/5a508z/en",
       "watch": "https://ultrabulk.com/career/",
-      "watchKey": "intern|trainee|graduate|student",
+      "watchKey": "\\b(intern|internship|trainee|graduate|student)s?\\b",
       "note": "Dry bulk operator with a large chartering desk. This is an open invitation to be considered for internships, trainee roles and graduate jobs across their offices, with no deadline. Join it now so you are on their list before roles are posted."
     },
     {
@@ -278,14 +278,14 @@
       "tier": 3,
       "start": "Flexible, 2027",
       "status": "expected",
-      "opens": "2026-10-31",
+      "opens": "2026-10-15",
       "est": true,
-      "deadline": "2026-11-14",
+      "deadline": "2026-11-07",
       "deadlineEst": true,
       "url": "https://www.westernbulk.com/press/news/kickstart-your-career-in-global-shipping-and-trading",
       "watch": "https://www.finn.no/job/search?q=Western%20Bulk",
-      "watchKey": "Western Bulk.*(Trainee|trainee)",
-      "note": "Dry bulk operator with a big chartering desk. Last year's round was posted 15 Oct 2025 and closed 7 Nov 2025, leading to a Junior Chartering Manager role; a bachelor's is enough. No 2026 post seen yet, so dates are estimates. You can email trainee@westernbulk.com now to flag interest."
+      "watchKey": "western bulk.*\\btrainee\\b|\\btrainee\\b.*western bulk",
+      "note": "Dry bulk operator with a big chartering desk. Last year's 12-month Commercial Trainee round was posted 15 Oct 2025 and closed 7 Nov 2025, leading to a junior chartering role. A bachelor's is enough, though 1-2 years of sales or trading experience is preferred. Nothing posted yet this year, so email trainee@westernbulk.com now."
     },
     {
       "id": "norden-trainee",
@@ -327,7 +327,7 @@
       "deadlineEst": true,
       "url": "https://centalion.com/careers/graduate-program",
       "watch": "https://centalion.com/careers/graduate-program",
-      "watchKey": "applications|deadline|graduate",
+      "watchKey": "\\bgraduate\\b|applications",
       "note": "Applications open now. Commodity trader with its own shipping arm (Clearlake Shipping). Degree must be finished by June 2027. The page gives no closing date and says decisions are made by year end; last year's window closed 31 October, so apply this week."
     },
     {
@@ -342,7 +342,38 @@
       "url": "https://wilhelmsen.wd3.myworkdayjobs.com/Wilhelmsen/job/Lysaker/Wilhelmsen-Summer-Internship-2027_JOBREQ_13100",
       "note": "Shipowner and ship manager. Deadline 25 Oct confirmed on the NHHS job board; starts 14 June 2027 at the Lysaker head office. Project in weeks 24-26 and 30-32. Students graduating in 2028 are prioritised, so stress your interest in staying on. Apply through Wilhelmsen's Workday page.",
       "watch": "https://www.nu.nhhs.no/jobs/2052/details",
-      "watchKey": "wilhelmsen|summer internship 2027"
+      "watchKey": "\\bwilhelmsen\\b|\\bsummer internship 2027\\b"
+    },
+    {
+      "id": "golar-summer-2027",
+      "company": "Golar LNG",
+      "role": "Summer Internship 2027",
+      "place": "Oslo (some projects London)",
+      "tier": 4,
+      "start": "Summer 2027, 6-8 weeks",
+      "status": "open",
+      "deadline": "2026-11-08",
+      "url": "https://www.finn.no/job/ad/477483379",
+      "watch": "https://www.finn.no/job/ad/477483379",
+      "watchKey": "\\bgolar\\b|\\bsummer internship\\b",
+      "note": "LNG shipping company. Open to 3rd and 4th year students in business and other fields; you must pick a project. Most projects are technical; Business Development and Legal sit in London (UK work permit needed). Candidates are assessed continuously, so apply early."
+    },
+    {
+      "id": "ldc-emea-graduate-2027",
+      "company": "Louis Dreyfus Company",
+      "role": "EMEA Commercial Graduate Program 2027",
+      "place": "Geneva",
+      "tier": 4,
+      "start": "2027, 18 months",
+      "status": "expected",
+      "opens": "2027-01-15",
+      "est": true,
+      "deadline": "2027-03-06",
+      "deadlineEst": true,
+      "url": "https://www.ldc.com/careers/graduates/global-graduate-programs/",
+      "watch": "https://www.ldc.com/careers/graduates/global-graduate-programs/",
+      "watchKey": "\\bgraduate\\b|\\bemea\\b",
+      "note": "Agricultural commodity trader with a large freight desk in Geneva. The 2026 programme was Geneva-based for 18 months and closed 6 March 2026, so dates for 2027 are estimates. Rotations cover trading and operations; freight is not guaranteed."
     }
   ],
   "log": [
@@ -373,6 +404,10 @@
     {
       "date": "2026-10-19",
       "summary": "Short test run. Re-checked MB Shipbrokers student assistant (posting live, ongoing screening, list deadline 30 Oct), Wilhelmsen Summer Internship 2027 (deadline 25 Oct confirmed on NHHS), Centalion (page could not be opened this run, estimate of 31 Oct kept) and the Clarksons GTBP page (still only says the 2026 intake is closed). No date changes; MB note now says to apply early. GitHub push succeeded."
+    },
+    {
+      "date": "2026-10-19",
+      "summary": "Full audit. Re-checked every entry against its source and searched Norway, Denmark, Switzerland, Germany, Sweden, Greece and the Netherlands, plus Clarksons' full job board, NHH, finn.no, Jobindex, jobs.ch and commodity traders in Geneva and Zug. Added Golar LNG Summer Internship 2027 (deadline 8 Nov) and Louis Dreyfus EMEA Commercial Graduate Program 2027 (Geneva, expected Jan to Mar). Corrected Western Bulk (usually open by mid-October), Fearnleys summer (last deadline 27 March), MB trainee (opens around mid-February), Clarksons trainee programme (check from 1 November), Ifchor locations and Howe Robinson offices. Left out: Glencore graduate (London), Trafigura Geneva (closed), Oldendorff (German required), Fred. Olsen Windcarrier and Klaveness summer (engineering only), Equinor and Fearnley Securities (closed)."
     }
   ]
 }

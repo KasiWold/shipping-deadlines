@@ -51,11 +51,11 @@ let TRACKED = [
     "est": true,
     "url": "https://careers.clarksons.com/search/?q=&locationsearch=Hellerup",
     "watch": [
-      "https://careers.clarksons.com/search/?q=&locationsearch=Hellerup",
-      "https://careers.clarksons.com/search/?q=intern"
+      "https://careers.clarksons.com/search/?q=intern",
+      "https://careers.clarksons.com/search/?q=&locationsearch=Hellerup"
     ],
-    "watchKey": "intern|hellerup|copenhagen",
-    "note": "Clarksons Denmark hired a one-year full-time Shipbroker Intern for 2026 (now filled), and a 2027 version is likely this winter. Your placement at Clarksons Copenhagen is your best lever here, so ask your contact there now when it opens."
+    "watchKey": "\\bintern(ship)?s?\\b.*\\b(hellerup|copenhagen|københavn|denmark)\\b|\\b(hellerup|copenhagen|københavn|denmark)\\b.*\\bintern(ship)?s?\\b",
+    "note": "Clarksons Denmark hired a one-year full-time Shipbroker Intern for 2026 (now filled). A 2027 round has not been announced and the opening date is a guess. The widget checks Clarksons' job list every few hours and puts any new Clarksons role in Europe at the top. Ask your Clarksons Copenhagen contact whether they plan a 2027 intern."
   },
   {
     "id": "clarksons-gtbp-2027",
@@ -65,7 +65,7 @@ let TRACKED = [
     "tier": 1,
     "start": "Autumn 2027 (2026 cohort started 28 Sept)",
     "status": "expected",
-    "opens": "2026-12-01",
+    "opens": "2026-11-01",
     "est": true,
     "deadline": "2027-02-15",
     "deadlineEst": true,
@@ -74,8 +74,8 @@ let TRACKED = [
       "https://www.clarksons.com/home/careers/early-careers/global-trainee-broker-programme/",
       "https://careers.clarksons.com/search/?q=trainee"
     ],
-    "watchKey": "trainee|programme|program|applications",
-    "note": "The flagship route to becoming a Clarksons broker. Last round, London closed 16 Feb 2026 and other offices stayed open longer. Two years with first-year rotations; Oslo had its own 2026 listing. Checked 16 Oct: the programme page still says only that the 2026 intake is closed."
+    "watchKey": "trainee broker programme|global trainee broker|\\b2027 intake\\b",
+    "note": "The flagship route to becoming a Clarksons broker. Last round, London closed 16 Feb 2026 and other offices stayed open longer; the 2026 cohort covered Oslo, Hamburg, Aberdeen and Edinburgh, London, New York, Shanghai and Singapore. Opening date is an estimate, set early on purpose so you start checking from 1 November."
   },
   {
     "id": "clarksons-monaco-office",
@@ -87,8 +87,8 @@ let TRACKED = [
     "status": "rolling",
     "url": "https://careers.clarksons.com/Clarksons/job/Monaco-New-Monaco-Office-%28various-opportunities-available%29-MC/1172355601/",
     "watch": "https://careers.clarksons.com/search/?q=Monaco",
-    "watchKey": "Monaco",
-    "note": "Clarksons is opening an office in Monaco (dry cargo, tankers, gas, S&P and more) and invites interest across experience levels. Reposted 14 Oct 2026. Monaco is outside the EU/EEA, so ask careers@clarksons.com whether they would hire a junior and handle the Monaco work permit."
+    "watchKey": "\\bmonaco\\b",
+    "note": "Listed on Clarksons' own job board (posted 14 Oct 2026) as a new office with various opportunities. It is not an entry-level programme, and Monaco is outside the EU/EEA, so a work permit is needed. Worth a short email to Clarksons expressing interest, ideally through your Clarksons Copenhagen contact."
   },
   {
     "id": "mb-student-market-research",
@@ -116,7 +116,7 @@ let TRACKED = [
     "url": "https://jobs.mbshipbrokers.com/hrmeasy_recruitment.nsf/0/82046AF7789368DCC1257D5700262C39?opendocument",
     "note": "Open through their job portal, currently listed with an end date of 31 Dec 2026 (it is renewed each year). Useful for flagging interest in the 2027 trainee intake early.",
     "watch": "https://jobs.mbshipbrokers.com/hrmeasy_recruitment.nsf/ShowJobList?OpenAgent",
-    "watchKey": "unsolicited",
+    "watchKey": "\\bunsolicited\\b",
     "anyDate": true
   },
   {
@@ -129,7 +129,7 @@ let TRACKED = [
     "status": "rolling",
     "url": "https://www.howerobinson.com/directory/careers/trainee-shipbroker/",
     "watch": "https://www.howerobinson.com/directory/careers/trainee-shipbroker/",
-    "note": "Trainee places listed as open in all offices, including Copenhagen, Bergen, Kristiansand, Hamburg and Geneva. Send CV and cover letter to recruitment@howerob.com quoting reference TR20 and name the office you want."
+    "note": "Howe Robinson says trainee opportunities exist in all its offices and departments. Its European offices include Copenhagen, Bergen, Kristiansand, Hamburg, Geneva and Greece. Send CV and cover letter to recruitment@howerob.com quoting reference TR20 and name the office you want."
   },
   {
     "id": "fearnleys-open",
@@ -153,7 +153,7 @@ let TRACKED = [
     "status": "rolling",
     "url": "https://grieg.no/?p=945",
     "watch": "https://grieg.no/?p=945",
-    "note": "General open application on their careers page. They also run summer intern places in Bergen."
+    "note": "Grieg Shipbrokers (Bergen and Oslo) has run summer intern places in dry bulk, offshore and maritime finance; the 2026 places were filled. No 2027 round is posted yet. Send an open application now so you are considered."
   },
   {
     "id": "lightship-open",
@@ -171,7 +171,7 @@ let TRACKED = [
     "id": "ifchor-igtp-2027",
     "company": "Ifchor Galbraiths",
     "role": "IG Talent Programme 2027",
-    "place": "Lausanne, Geneva and global",
+    "place": "Lausanne or London (not specified)",
     "tier": 2,
     "start": "2027 (month not confirmed)",
     "status": "expected",
@@ -181,8 +181,8 @@ let TRACKED = [
     "deadlineEst": true,
     "url": "https://ifchorgalbraiths.com/careers/",
     "watch": "https://ifchorgalbraiths.com/careers/",
-    "watchKey": "talent|igtp|trainee|applications",
-    "note": "12-month shipbroking programme. The 2026 round closed 31 January 2026."
+    "watchKey": "talent programme|\\bigtp\\b|\\btrainee\\b",
+    "note": "12-month shipbroking programme. The 2026 round closed 31 January 2026. Eligible with a business education. Ifchor Galbraiths' offices are Lausanne and London; the page does not say where trainees sit."
   },
   {
     "id": "steem1960-trainee",
@@ -207,14 +207,14 @@ let TRACKED = [
     "tier": 2,
     "start": "Summer 2027",
     "status": "expected",
-    "opens": "2027-01-15",
+    "opens": "2027-02-01",
     "est": true,
-    "deadline": "2027-03-01",
+    "deadline": "2027-03-27",
     "deadlineEst": true,
     "url": "https://fearnleys.com/careers/",
     "watch": "https://fearnleys.com/careers/",
-    "watchKey": "intern",
-    "note": "Previous London and Singapore rounds closed 1 March. Oslo and Geneva dates are not published, so ask career@fearnleys.com now."
+    "watchKey": "\\bintern(ship)?s?\\b|\\bsummer\\b",
+    "note": "Fearnleys' 2026 summer programme (London, 29 June to 21 August) closed 27 March 2026. Oslo and Geneva dates are not published, so email career@fearnleys.com now and ask."
   },
   {
     "id": "mb-trainee-2027",
@@ -224,14 +224,14 @@ let TRACKED = [
     "tier": 2,
     "start": "September 2027",
     "status": "expected",
-    "opens": "2027-03-01",
+    "opens": "2027-02-15",
     "est": true,
     "deadline": "2027-04-30",
     "deadlineEst": true,
     "url": "https://jobs.mbshipbrokers.com/hrmeasy_recruitment.nsf/ShowJobList?OpenAgent",
     "watch": "https://jobs.mbshipbrokers.com/hrmeasy_recruitment.nsf/ShowJobList?OpenAgent",
-    "watchKey": "trainee",
-    "note": "Recruits in March-April. Two years with the Danish Shipping Academy, then a permanent job.",
+    "watchKey": "\\btrainee\\b",
+    "note": "MB's 2026 Copenhagen trainee ad was published 16 Feb 2026, and they recruit through March and April. Two years with the Danish Shipping Academy, then a permanent job.",
     "anyDate": true
   },
   {
@@ -245,7 +245,7 @@ let TRACKED = [
     "est": true,
     "url": "https://www.brsshipbrokers.com/careers",
     "watch": "https://www.brsshipbrokers.com/careers",
-    "watchKey": "graduate",
+    "watchKey": "\\bgraduate\\b",
     "note": "12-month programme rotating through offices and departments. Closed now with no 2027 dates, so also send an unsolicited CV through the page."
   },
   {
@@ -260,8 +260,8 @@ let TRACKED = [
     "est": true,
     "url": "https://www.ssyglobal.com/trainee-scheme",
     "watch": "https://www.ssyglobal.com/trainee-scheme",
-    "watchKey": "trainee|applications|2027",
-    "note": "Desk-based trainee scheme. Opening date is an estimate: the 2024 and 2026 rounds opened on 1 and 9 February, and the September 2026 intake is now closed. Name Oslo or Hamburg when you apply."
+    "watchKey": "trainee scheme|\\btrainee\\b",
+    "note": "12-month desk-based trainee scheme. SSY's February 2026 round took trainees in London, Athens, Oslo, Bergen and Hamburg; that round opened 9 February 2026. Name Oslo, Bergen or Hamburg when you apply."
   },
   {
     "id": "torm-student",
@@ -273,7 +273,7 @@ let TRACKED = [
     "status": "rolling",
     "url": "https://www.torm.com/careers/careers-in-office/programs-in-office/default.aspx",
     "watch": "https://candidate.hr-manager.net/vacancies/list.aspx?customer=torm",
-    "watchKey": "student",
+    "watchKey": "\\b(student|graduate|trainee)s?\\b",
     "note": "Product tanker owner. Student assistants (15-20 h/week) are hired as departments need them; set up TORM's job agent to be told first."
   },
   {
@@ -286,7 +286,7 @@ let TRACKED = [
     "status": "rolling",
     "url": "https://ultranav.career.emply.com/ad/shipping-talent-pipeline/5a508z/en",
     "watch": "https://ultrabulk.com/career/",
-    "watchKey": "intern|trainee|graduate|student",
+    "watchKey": "\\b(intern|internship|trainee|graduate|student)s?\\b",
     "note": "Dry bulk operator with a large chartering desk. This is an open invitation to be considered for internships, trainee roles and graduate jobs across their offices, with no deadline. Join it now so you are on their list before roles are posted."
   },
   {
@@ -310,14 +310,14 @@ let TRACKED = [
     "tier": 3,
     "start": "Flexible, 2027",
     "status": "expected",
-    "opens": "2026-10-31",
+    "opens": "2026-10-15",
     "est": true,
-    "deadline": "2026-11-14",
+    "deadline": "2026-11-07",
     "deadlineEst": true,
     "url": "https://www.westernbulk.com/press/news/kickstart-your-career-in-global-shipping-and-trading",
     "watch": "https://www.finn.no/job/search?q=Western%20Bulk",
-    "watchKey": "Western Bulk.*(Trainee|trainee)",
-    "note": "Dry bulk operator with a big chartering desk. Last year's round was posted 15 Oct 2025 and closed 7 Nov 2025, leading to a Junior Chartering Manager role; a bachelor's is enough. No 2026 post seen yet, so dates are estimates. You can email trainee@westernbulk.com now to flag interest."
+    "watchKey": "western bulk.*\\btrainee\\b|\\btrainee\\b.*western bulk",
+    "note": "Dry bulk operator with a big chartering desk. Last year's 12-month Commercial Trainee round was posted 15 Oct 2025 and closed 7 Nov 2025, leading to a junior chartering role. A bachelor's is enough, though 1-2 years of sales or trading experience is preferred. Nothing posted yet this year, so email trainee@westernbulk.com now."
   },
   {
     "id": "norden-trainee",
@@ -359,7 +359,7 @@ let TRACKED = [
     "deadlineEst": true,
     "url": "https://centalion.com/careers/graduate-program",
     "watch": "https://centalion.com/careers/graduate-program",
-    "watchKey": "applications|deadline|graduate",
+    "watchKey": "\\bgraduate\\b|applications",
     "note": "Applications open now. Commodity trader with its own shipping arm (Clearlake Shipping). Degree must be finished by June 2027. The page gives no closing date and says decisions are made by year end; last year's window closed 31 October, so apply this week."
   },
   {
@@ -374,7 +374,38 @@ let TRACKED = [
     "url": "https://wilhelmsen.wd3.myworkdayjobs.com/Wilhelmsen/job/Lysaker/Wilhelmsen-Summer-Internship-2027_JOBREQ_13100",
     "note": "Shipowner and ship manager. Deadline 25 Oct confirmed on the NHHS job board; starts 14 June 2027 at the Lysaker head office. Project in weeks 24-26 and 30-32. Students graduating in 2028 are prioritised, so stress your interest in staying on. Apply through Wilhelmsen's Workday page.",
     "watch": "https://www.nu.nhhs.no/jobs/2052/details",
-    "watchKey": "wilhelmsen|summer internship 2027"
+    "watchKey": "\\bwilhelmsen\\b|\\bsummer internship 2027\\b"
+  },
+  {
+    "id": "golar-summer-2027",
+    "company": "Golar LNG",
+    "role": "Summer Internship 2027",
+    "place": "Oslo (some projects London)",
+    "tier": 4,
+    "start": "Summer 2027, 6-8 weeks",
+    "status": "open",
+    "deadline": "2026-11-08",
+    "url": "https://www.finn.no/job/ad/477483379",
+    "watch": "https://www.finn.no/job/ad/477483379",
+    "watchKey": "\\bgolar\\b|\\bsummer internship\\b",
+    "note": "LNG shipping company. Open to 3rd and 4th year students in business and other fields; you must pick a project. Most projects are technical; Business Development and Legal sit in London (UK work permit needed). Candidates are assessed continuously, so apply early."
+  },
+  {
+    "id": "ldc-emea-graduate-2027",
+    "company": "Louis Dreyfus Company",
+    "role": "EMEA Commercial Graduate Program 2027",
+    "place": "Geneva",
+    "tier": 4,
+    "start": "2027, 18 months",
+    "status": "expected",
+    "opens": "2027-01-15",
+    "est": true,
+    "deadline": "2027-03-06",
+    "deadlineEst": true,
+    "url": "https://www.ldc.com/careers/graduates/global-graduate-programs/",
+    "watch": "https://www.ldc.com/careers/graduates/global-graduate-programs/",
+    "watchKey": "\\bgraduate\\b|\\bemea\\b",
+    "note": "Agricultural commodity trader with a large freight desk in Geneva. The 2026 programme was Geneva-based for 18 months and closed 6 March 2026, so dates for 2027 are estimates. Rotations cover trading and operations; freight is not guaranteed."
   }
 ];
 
@@ -382,12 +413,16 @@ let TRACKED = [
 
 const JOBINDEX_QUERIES = ["shipbroker", "shipbroking", "shipping trainee", "chartering", "befragtning"];
 // Only keep live postings aimed at students and new graduates
-const ENTRY_LEVEL = /(student|trainee|intern|graduate|junior|praktik|elev|summer)/i;
+// Whole words only: "intern" must not match "international", "elev" must not match "development"
+const ENTRY_LEVEL = /\b(students?|student assistant|studentermedhjælper|studiejob|studenterjob|trainees?|traineeship|interns?|internships?|graduates?|junior|praktik\w*|elev|summer|sommerjobb|sommerpraktikant|early careers?)\b/i;
 // Live postings must mention shipping in the job title or company name, which stops
 // generic "Student Assistant" ads from unrelated companies getting through
-const SHIPPING_WORDS = /(\bship|shipping|shipbrok|broker|broking|chartering|befragt|freight|\bfragt|maritime|\bmarine|tanker|\bbulk|vessel|rederi|dampskib|\bocean|offshore|\blng\b|\blpg\b|bunker|maersk|norden|torm|hafnia|dfds|ultrabulk|lauritzen|stena|evergas|monjasa|navig8|clarksons|fearnley|steem|lightship)/i;
+// Generic words like "broker" are left out on purpose: they also match insurance, real-estate and
+// customs brokers. Shipbroking firms are matched by name instead.
+const SHIP_FIRMS = "clarksons|fearnley|steem1960|lightship|lorentzen|stemoco|braemar|\\bssy\\b|simpson spence|howe robinson|gibson|\\bbrs\\b|ifchor|galbraith|banchero|mb shipbrokers|grieg shipbrokers|hagland|steensland|bassøe|bassoe|seabrokers|westshore|arrow shipbroking|affinity shipping|poten";
+const SHIPPING_WORDS = new RegExp("(\\bship|shipping|shipbrok|ship brok|skibsmægl|\\bchartering\\b|\\bcharterer|befragt|\\bfreight\\b|\\bfragt\\b|maritime|\\bmarine\\b|tanker|\\bdry cargo\\b|\\bdry bulk\\b|\\bbulk\\b|vessel|rederi|dampskib|\\bocean\\b|\\boffshore\\b|\\blng\\b|\\blpg\\b|bunker|maersk|\\bnorden\\b|\\btorm\\b|hafnia|\\bdfds\\b|ultrabulk|lauritzen|stena|evergas|monjasa|navig8|klaveness|odfjell|wilhelmsen|golden ocean|western bulk|" + SHIP_FIRMS + ")", "i");
 // Live postings get the same tiers as the master list
-const CHARTERING_WORDS = /(charter|befragt|freight|fragt|tanker|bulk|norden|torm|hafnia|maersk|ultrabulk|lauritzen|stena|cargill|trafigura|gunvor|centalion|vitol|klaveness|odfjell)/i;
+const CHARTERING_WORDS = /(\bchartering\b|\bcharterer|befragt|\bfreight\b|\bfragt\b|tanker|\bbulk\b|\bnorden\b|\btorm\b|hafnia|maersk|ultrabulk|lauritzen|stena|cargill|trafigura|gunvor|centalion|vitol|klaveness|odfjell|western bulk|\boperator\b)/i;
 function tierOf(text) {
   if (/clarksons/i.test(text)) return 1;
   if (BROKER_WORDS.test(text)) return 2;
@@ -395,10 +430,23 @@ function tierOf(text) {
   return 4;
 }
 // Shipbroking postings are ranked above other shipping postings
-const BROKER_WORDS = /(broker|broking|brokering|mægler)/i;
+const BROKER_WORDS = new RegExp("(shipbrok|ship brok|skibsmægl|\\bbroker\\b|\\bbroking\\b|" + SHIP_FIRMS + ")", "i");
 const NEWS_QUERY = '("trainee broker" OR "shipbroking trainee" OR "shipbroker trainee" OR "shipbroking internship" OR "shipbroker internship" OR "shipping trainee") when:30d';
 
 const FINN_QUERIES = ["shipbroker", "shipping", "chartering"];
+
+// Every Clarksons vacancy worldwide, newest first, plus targeted searches. Only entry-level roles
+// in offices you can work in without a visa (EU/EEA, Switzerland, Monaco) are kept.
+const CLARKSONS_BASE = "https://careers.clarksons.com";
+const CLARKSONS_FEEDS = [
+  "/search/?q=&sortColumn=referencedate&sortDirection=desc",
+  "/search/?q=trainee",
+  "/search/?q=intern",
+  "/search/?q=student",
+  "/search/?q=graduate",
+  "/search/?q=junior",
+];
+const EUROPE = /\b(oslo|bergen|stavanger|kristiansand|haugesund|ålesund|alesund|trondheim|hellerup|copenhagen|københavn|kobenhavn|aarhus|hamburg|bremen|geneva|genève|geneve|lausanne|zug|zurich|zürich|monaco|athens|piraeus|rotterdam|amsterdam|antwerp|paris|marseille|genoa|genova|milan|stockholm|gothenburg|göteborg|helsinki|madrid|lisbon|limassol|ijmuiden|eemshaven)\b|,\s*(no|dk|de|ch|mc|gr|nl|be|fr|it|se|fi|es|pt|cy|pl|ie)\s*$/i;
 
 const LIVE_FEEDS = [
   ...JOBINDEX_QUERIES.map((q) => ({
@@ -410,6 +458,11 @@ const LIVE_FEEDS = [
     name: "finn.no",
     kind: "finn",
     url: "https://www.finn.no/job/search?q=" + encodeURIComponent(q),
+  })),
+  ...CLARKSONS_FEEDS.map((q) => ({
+    name: "Clarksons",
+    kind: "clarksons",
+    url: CLARKSONS_BASE + q,
   })),
   {
     name: "Google News",
@@ -441,7 +494,7 @@ const C = {
 // ================= STORAGE =================
 
 const fm = FileManager.local();
-const CACHE = fm.joinPath(fm.cacheDirectory(), "shipping-deadlines-live-v3.json");
+const CACHE = fm.joinPath(fm.cacheDirectory(), "shipping-deadlines-live-v4.json");
 const STATE = fm.joinPath(fm.documentsDirectory(), "shipping-deadlines-state.json");
 
 function readJSON(path, fallback) {
@@ -458,9 +511,10 @@ function itemKey(it) { return (it.company + "|" + it.role).toLowerCase(); }
 const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 function parseDay(s) {
-  if (!s) return null;
+  if (!s || typeof s !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(s)) return null;
   const [y, m, d] = s.split("-").map(Number);
-  return new Date(y, m - 1, d);
+  const x = new Date(y, m - 1, d);
+  return x.getMonth() === m - 1 ? x : null;
 }
 function today() {
   const n = new Date();
@@ -484,32 +538,43 @@ function ago(t) {
 // ================= EVALUATE TRACKED =================
 // Turns each tracked entry into what it means today.
 
+function safeRegex(src) {
+  try { return src ? new RegExp(src, "i") : null; } catch (e) { return null; }
+}
+
 function evaluate(it, applied, watch) {
   const ws = watch ? [].concat(it.watch || []).map((u) => watch[u]).filter(Boolean) : [];
   let src = it;
-  const key = it.watchKey ? new RegExp(it.watchKey, "i") : null;
+  const key = safeRegex(it.watchKey);
   const t = today();
-  const found = ws.flatMap((w) => w.cands || []).filter((c) => (!c.weak || it.anyDate) && (!key || key.test(c.s)) && parseDay(c.d) >= t).map((c) => c.d).sort()[0] || null;
+  // A deadline confirmed by the research run is never overwritten by what the phone reads on a
+  // page. Page readings only fill in programmes that are expected or have an estimated date.
+  const trusted = it.status === "open" && it.deadline && !it.deadlineEst;
+  const found = trusted ? null : ws.flatMap((w) => w.cands || [])
+    .filter((c) => (!c.weak || it.anyDate) && (!key || key.test(c.s)) && parseDay(c.d) && parseDay(c.d) >= t)
+    .map((c) => c.d).sort()[0] || null;
   const saysOpen = ws.some((w) => (w.opens || []).some((x) => !key || key.test(x)));
-  const changed = ws.some((w) => w.seen && w.hash !== w.seen);
   if (found && it.status !== "rolling") {
-    // the company's own page now shows a deadline: use the real date
     src = Object.assign({}, it, { status: "open", deadline: found, deadlineEst: false, auto: true });
   } else if (saysOpen && it.status === "expected") {
     src = Object.assign({}, it, { status: "nowopen" });
   }
   const e = baseEvaluate(src, applied);
-  if (changed) {
-    e.changed = true;
-    if (e.state === "soon") {
-      e.state = "check";
-      e.dateLabel = "Check";
-      e.sort = 350;
-    }
-    if (e.state !== "open") {
-      e.chip = "updated";
-      e.color = C.amber;
-    }
+
+  // Change detection, per programme: only the page lines that match this programme count
+  const lines = ws.flatMap((w) => w.lines || []);
+  if (lines.length) {
+    const mine = key ? lines.filter((l) => key.test(l)) : lines;
+    const h = hashText(mine.join("|"));
+    e.seenId = it.id || itemKey(it);
+    e.pageHash = h;
+    if (SEEN[e.seenId] === undefined) { SEEN[e.seenId] = h; seenDirty = true; }
+    else if (SEEN[e.seenId] !== h) e.changed = true;
+  }
+  if (e.changed && e.state !== "open") {
+    if (e.state === "soon") { e.state = "check"; e.dateLabel = "Check"; e.sort = 350; }
+    e.chip = "updated";
+    e.color = C.amber;
   }
   return e;
 }
@@ -535,7 +600,7 @@ function baseEvaluate(it, applied) {
     e.days = left;
     e.dateLabel = (it.deadlineEst ? "~" : "") + fmtDay(dl);
     e.chip = left === 0 ? "today" : left + "d";
-    e.color = left <= 7 ? C.red : left <= 21 ? C.amber : C.green;
+    e.color = left <= 7 ? C.red : (left <= 21 || it.auto) ? C.amber : C.green;
     e.sort = left;
     return e;
   }
@@ -550,10 +615,12 @@ function baseEvaluate(it, applied) {
   }
 
   if (it.status === "nowopen") {
+    // the phone read "applications open" on their page; shown as something to check until the
+    // next research run confirms it
     e.state = "check";
-    e.dateLabel = "Open";
-    e.chip = "open!";
-    e.color = C.green;
+    e.dateLabel = "Open?";
+    e.chip = "check";
+    e.color = C.amber;
     e.sort = 300;
     return e;
   }
@@ -562,7 +629,7 @@ function baseEvaluate(it, applied) {
   if (op && op <= t) {
     // usual opening date has passed: may be open now
     e.state = "check";
-    e.dateLabel = dl ? "~" + fmtDay(dl) : "Check";
+    e.dateLabel = dl && dl >= t ? "~" + fmtDay(dl) : "Check";
     e.chip = "check";
     e.color = C.amber;
     e.sort = 400 + (dl ? daysBetween(t, dl) / 1000 : 0);
@@ -582,12 +649,15 @@ function buildTracker(state, watch) {
   const applied = state.applied || {};
   const rank = (e) => {
     const group = { open: 0, check: 1, rolling: 2, soon: 3, missed: 4 }[e.state];
-    return [group, e.tier || (e.broker === false ? 3 : 2), e.sort];
+    // Most relevant first, except that anything closing within a week jumps to the top
+    const urgent = e.state === "open" && e.days !== undefined && e.days <= 7 ? 0 : 1;
+    return [group, urgent, e.tier || (e.broker === false ? 3 : 2), e.sort];
   };
   const all = TRACKED.map((it) => evaluate(it, applied, watch)).sort((a, b) => {
     const x = rank(a), y = rank(b);
-    return x[0] - y[0] || x[1] - y[1] || x[2] - y[2];
+    return x[0] - y[0] || x[1] - y[1] || x[2] - y[2] || x[3] - y[3];
   });
+  if (seenDirty) { writeJSON(SEEN_FILE, SEEN); seenDirty = false; }
   return {
     act: all.filter((e) => !e.applied && (e.state === "open" || e.state === "rolling" || e.state === "check")),
     soon: all.filter((e) => !e.applied && e.state === "soon"),
@@ -614,7 +684,9 @@ async function loadRemote(maxAgeHours) {
     } catch (e) {}
   }
   if (cache && cache.data && Array.isArray(cache.data.items) && cache.data.items.length) {
-    TRACKED = cache.data.items;
+    // ignore any malformed entry instead of letting it break the widget
+    const ok = cache.data.items.filter((it) => it && it.company && it.role && it.status && it.url);
+    if (ok.length) TRACKED = ok;
     if (cache.data.verified) {
       const d = parseDay(cache.data.verified);
       VERIFIED = d ? d.getDate() + " " + MON[d.getMonth()] + " " + d.getFullYear() : cache.data.verified;
@@ -624,15 +696,17 @@ async function loadRemote(maxAgeHours) {
 
 // ================= CAREERS PAGE WATCHERS =================
 
-const WATCH_FILE = fm.joinPath(fm.documentsDirectory(), "shipping-deadlines-watch-v2.json");
+const WATCH_FILE = fm.joinPath(fm.documentsDirectory(), "shipping-deadlines-watch-v3.json");
 const UA = { "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1" };
 const MONTH_KEYS = { jan: 0, feb: 1, mar: 2, apr: 3, may: 4, mai: 4, maj: 4, jun: 5, jul: 6, aug: 7, sep: 8, oct: 9, okt: 9, nov: 10, dec: 11, des: 11 };
 const RELEVANT = /(appl|deadline|closing|closes|trainee|intern|graduate|programme|program|vacanc|position|opening|recruit|søknad|frist|ansøg|stilling|2027|2028)/i;
 const DEADLINE_WORDS = /(deadline|closing|closes|close on|close by|apply by|apply before|applications? close|no later than|søknadsfrist|frist|ansøgningsfrist|senest)/i;
 // Only explicit announcements count. "Apply now" is left out because careers pages use it as a
 // button label all year round.
-const OPEN_WORDS = /(applications?\s+(are\s+|is\s+)?(now\s+)?open\b|now open for applications|now accepting applications|applications? for (our |the )?20\d\d (intake |programme |program |scheme )?(are |is )?(now )?open)/i;
+const OPEN_WORDS = /(\bapplications?\s+(are\s+|is\s+)?(now\s+)?open\b|\bapplications?\b[^.]{0,60}?\b(are|is)\s+(now\s+)?open\b|\bnow open for applications\b|\bnow accepting applications\b)/i;
 const CLOSED_WORDS = /(closed|no vacanc|not currently recruiting)/i;
+// "Applications open in January" or "will open soon" announce a future opening, not an open one
+const NOT_YET = /\b(will|soon|not yet|later|expected|opens? on|open from|opening|in (january|february|march|april|may|june|july|august|september|october|november|december)|next year)\b/i;
 
 function iso(d) {
   const p = (x) => String(x).padStart(2, "0");
@@ -698,9 +772,16 @@ function analyse(html) {
     // for job lists laid out as tables (title | department | date), see anyDate
     const strong = DEADLINE_WORDS.test(x);
     for (const d of findDates(x)) if (d >= t && d <= horizon) cands.push({ d: iso(d), s: strong ? ctx(i) : x.toLowerCase(), weak: !strong });
-    if (OPEN_WORDS.test(x) && !CLOSED_WORDS.test(x) && !oldYear(x)) opens.push(ctx(i));
+    if (OPEN_WORDS.test(x) && !CLOSED_WORDS.test(x) && !NOT_YET.test(x) && !oldYear(x)) opens.push(ctx(i));
   });
-  return { hash: hashText(sentences.join("|")), cands: cands.slice(0, 40), opens: opens.slice(0, 10) };
+  // Lines used to notice changes. Relative times and counters ("3 days ago", "26 jobs") are
+  // removed so a page that only ticks over in time does not look changed.
+  const lines = sentences.map((x) => x
+    .replace(/\b\d+\s*(minutes?|mins?|hours?|days?|weeks?|months?)\s+ago\b/gi, "")
+    .replace(/\b(today|yesterday|i dag|i går)\b/gi, "")
+    .replace(/\b\d+\s+(results?|jobs?|stillinger|positions?|vacancies|openings|matches)\b/gi, "")
+    .replace(/\s+/g, " ").trim().toLowerCase().slice(0, 250)).filter((x) => x.length > 3).slice(0, 250);
+  return { lines, cands: cands.slice(0, 40), opens: opens.slice(0, 10) };
 }
 
 async function getWatch(maxAgeHours) {
@@ -717,23 +798,23 @@ async function getWatch(maxAgeHours) {
       if (req.response && req.response.statusCode >= 400) return;
       if (!html || html.length < 500) return;
       const a = analyse(html);
-      const prev = store[u] || {};
-      store[u] = {
-        hash: a.hash,
-        seen: prev.seen || a.hash,          // first read counts as already seen
-        cands: a.cands,
-        opens: a.opens,
-        checked: Date.now(),
-      };
+      store[u] = { lines: a.lines, cands: a.cands, opens: a.opens, checked: Date.now() };
     } catch (e) {}
   }));
   writeJSON(WATCH_FILE, store);
   return store;
 }
 
-function markSeen(watch, urls) {
-  for (const u of [].concat(urls || [])) if (watch[u]) watch[u].seen = watch[u].hash;
-  writeJSON(WATCH_FILE, watch);
+// What you have already seen of each programme's careers-page text, per programme, so a
+// change about one programme never flags another one on the same page
+const SEEN_FILE = fm.joinPath(fm.documentsDirectory(), "shipping-deadlines-seen.json");
+const SEEN = readJSON(SEEN_FILE, {});
+let seenDirty = false;
+
+function markSeen(e) {
+  if (!e || !e.pageHash) return;
+  SEEN[e.seenId] = e.pageHash;
+  writeJSON(SEEN_FILE, SEEN);
 }
 
 
@@ -784,8 +865,36 @@ function parseFinn(html) {
   return out;
 }
 
+// Clarksons careers site: job links look like /Clarksons/job/<City>-<Title>/<id>/ and the
+// location is printed next to the title (e.g. "Oslo, NO")
+function parseClarksons(html) {
+  const out = [];
+  const seen = new Set();
+  const re = /<a[^>]+href="([^"]*\/Clarksons\/job\/([^"\/]+)\/(\d+)\/?[^"]*)"[^>]*>([\s\S]{0,300}?)<\/a>/g;
+  let m;
+  while ((m = re.exec(html)) && out.length < 80) {
+    const id = m[3];
+    if (seen.has(id)) continue;
+    const role = clean(m[4]);
+    if (!role || role.length < 4) continue;
+    seen.add(id);
+    let slug = m[2];
+    try { slug = decodeURIComponent(slug); } catch (e) {}
+    const near = html.slice(re.lastIndex, re.lastIndex + 600)
+      .replace(/<(script|style)[\s\S]*?<\/\1>/gi, " ")
+      .split(/<[^>]+>/).map((x) => clean(x)).filter((x) => x.length > 1);
+    const loc = near.find((x) => /,\s*[A-Z]{2}$/.test(x) && x.length < 50) || slug.split("-")[0];
+    if (!ENTRY_LEVEL.test(role)) continue;
+    if (!EUROPE.test(loc) && !EUROPE.test(slug.split("-")[0])) continue;
+    const url = m[1].startsWith("http") ? m[1] : CLARKSONS_BASE + m[1];
+    out.push({ company: "Clarksons", role, place: loc, url, time: 0, source: "Clarksons", tier: 1 });
+  }
+  return out;
+}
+
 function parseFeed(xml, feed) {
   if (feed.kind === "finn") return parseFinn(xml);
+  if (feed.kind === "clarksons") return parseClarksons(xml);
   const blocks = xml.match(/<item[\s>][\s\S]*?<\/item>/gi) || [];
   const out = [];
   for (const b of blocks.slice(0, 40)) {
@@ -921,9 +1030,10 @@ function liveRow(it) {
     company: it.company,
     role: it.role,
     url: it.url,
+    place: it.place,
     dateLabel: it.source === "News" ? "News" : "New",
     chip: ago(it.time),
-    color: it.source === "News" ? C.grey : C.blue,
+    color: it.source === "Clarksons" ? C.gold : it.source === "News" ? C.grey : C.blue,
     tier: it.tier || 4,
   };
 }
@@ -955,7 +1065,9 @@ function buildNext(tr, live) {
   list.layoutVertically();
   list.spacing = 4;
 
-  const rows = tr.act.slice(0, 4);
+  const hot = live.items.filter((i) => i.source === "Clarksons").slice(0, 2)
+    .map((i) => Object.assign(liveRow(i), { dateLabel: "NEW", color: C.gold }));
+  const rows = hot.concat(tr.act).slice(0, 4);
   if (rows.length < 4) rows.push(...tr.soon.slice(0, 4 - rows.length));
   if (!rows.length) {
     const t = list.addText("Nothing to act on right now.");
@@ -1042,11 +1154,24 @@ function divider(w) {
   w.addSpacer(5);
 }
 
-function buildLock(tr, family) {
+function buildLock(tr, family, live) {
   const w = new ListWidget();
   w.url = runURL();
   w.refreshAfterDate = new Date(Date.now() + REFRESH_MINUTES * 60000);
-  const e = tr.act.find((x) => x.state === "open") || tr.act[0] || tr.soon[0];
+  const hot = live && live.items.find((i) => i.source === "Clarksons");
+  if (hot) {
+    if (family === "accessoryInline") { w.addText("New Clarksons role: " + hot.role); return w; }
+    const h = w.addText("NEW CLARKSONS ROLE");
+    h.font = Font.heavySystemFont(10);
+    const a = w.addText(hot.role);
+    a.font = Font.semiboldSystemFont(13);
+    a.lineLimit = 2;
+    if (hot.place) { const b = w.addText(hot.place); b.font = Font.systemFont(11); b.lineLimit = 1; }
+    return w;
+  }
+  // the deadline that comes first, whatever its tier
+  const opens = tr.act.filter((x) => x.state === "open").sort((a, b) => a.days - b.days);
+  const e = opens[0] || tr.act[0] || tr.soon[0];
   if (family === "accessoryInline") {
     w.addText(e ? e.company + " " + (e.state === "open" ? e.chip + " left" : e.dateLabel) : "No deadlines");
     return w;
@@ -1124,7 +1249,7 @@ async function showList(state, live, watch) {
     const i = await a.presentSheet();
     if (i === 0 && e.url) {
       const wasChanged = e.changed;
-      markSeen(watch, e.watch);
+      markSeen(e);
       Safari.openInApp(e.url, false);
       return !!wasChanged;
     }
@@ -1145,10 +1270,10 @@ async function showList(state, live, watch) {
 const TIER_NAMES = { 1: "Clarksons", 2: "Shipbroker", 3: "Chartering desk", 4: "Other shipping" };
 
 function describe(e) {
-  if (e.live) return "";
+  if (e.live) return e.place || "";
   const flag = e.changed ? "Their page changed since you last opened it. " : "";
-  if (e.state === "open") return flag + "Deadline " + e.dateLabel + " (" + (e.days === 0 ? "today" : e.days + " days left") + ")" + (e.auto ? ", read from their page" : "");
-  if (e.state === "check" && e.status === "nowopen") return flag + "Their page says applications are open";
+  if (e.state === "open") return flag + "Deadline " + e.dateLabel + " (" + (e.days === 0 ? "today" : e.days + " days left") + ")" + (e.auto ? ". Read automatically from their page, so open it and confirm" : "");
+  if (e.state === "check" && e.status === "nowopen") return flag + "Their page seems to say applications are open. Open it and confirm";
   if (e.state === "rolling") return flag + "No deadline, apply any time";
   if (e.state === "check") return flag + "Usually open by now, check the page" + (e.deadline ? ". Deadline around " + fmtDay(parseDay(e.deadline)) : "");
   if (e.state === "soon") {
@@ -1170,7 +1295,7 @@ if (config.runsInWidget) {
   const param = (args.widgetParameter || "").trim().toLowerCase();
   let w;
   if (family.startsWith("accessory")) {
-    w = buildLock(buildTracker(state, readJSON(WATCH_FILE, {})), family);
+    w = buildLock(buildTracker(state, readJSON(WATCH_FILE, {})), family, readJSON(CACHE, null));
   } else {
     const [live, watch] = await Promise.all([getLive(CACHE_HOURS), getWatch(WATCH_HOURS)]);
     const tr = buildTracker(state, watch);
