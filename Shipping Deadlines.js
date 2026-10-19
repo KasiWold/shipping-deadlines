@@ -441,7 +441,7 @@ const C = {
 // ================= STORAGE =================
 
 const fm = FileManager.local();
-const CACHE = fm.joinPath(fm.cacheDirectory(), "shipping-deadlines-live-v2.json");
+const CACHE = fm.joinPath(fm.cacheDirectory(), "shipping-deadlines-live-v3.json");
 const STATE = fm.joinPath(fm.documentsDirectory(), "shipping-deadlines-state.json");
 
 function readJSON(path, fallback) {
@@ -624,12 +624,14 @@ async function loadRemote(maxAgeHours) {
 
 // ================= CAREERS PAGE WATCHERS =================
 
-const WATCH_FILE = fm.joinPath(fm.documentsDirectory(), "shipping-deadlines-watch.json");
+const WATCH_FILE = fm.joinPath(fm.documentsDirectory(), "shipping-deadlines-watch-v2.json");
 const UA = { "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1" };
 const MONTH_KEYS = { jan: 0, feb: 1, mar: 2, apr: 3, may: 4, mai: 4, maj: 4, jun: 5, jul: 6, aug: 7, sep: 8, oct: 9, okt: 9, nov: 10, dec: 11, des: 11 };
 const RELEVANT = /(appl|deadline|closing|closes|trainee|intern|graduate|programme|program|vacanc|position|opening|recruit|søknad|frist|ansøg|stilling|2027|2028)/i;
 const DEADLINE_WORDS = /(deadline|closing|closes|close on|close by|apply by|apply before|applications? close|no later than|søknadsfrist|frist|ansøgningsfrist|senest)/i;
-const OPEN_WORDS = /(applications?\s+(are\s+)?(now\s+)?open|apply now|now accepting|now recruiting|we are recruiting|applications? for (our |the )?20(27|28) (intake |programme |program )?(are |is )?open)/i;
+// Only explicit announcements count. "Apply now" is left out because careers pages use it as a
+// button label all year round.
+const OPEN_WORDS = /(applications?\s+(are\s+|is\s+)?(now\s+)?open\b|now open for applications|now accepting applications|applications? for (our |the )?20\d\d (intake |programme |program |scheme )?(are |is )?(now )?open)/i;
 const CLOSED_WORDS = /(closed|no vacanc|not currently recruiting)/i;
 
 function iso(d) {
@@ -672,6 +674,15 @@ function hashText(str) {
 
 // Reads one careers page: a fingerprint of the hiring-related text, any upcoming deadline,
 // and whether it says applications are open or closed
+// A sentence about an intake year that has already started (e.g. "2026 intake" in October 2026)
+// is about last year's round, not the one you can apply for
+function oldYear(x) {
+  const now = new Date();
+  const minYear = now.getMonth() >= 6 ? now.getFullYear() + 1 : now.getFullYear();
+  const years = (x.match(/\b20\d\d\b/g) || []).map(Number);
+  return years.length > 0 && years.every((y) => y < minYear);
+}
+
 function analyse(html) {
   const sentences = pageText(html)
     .split(/\n+|[.!?]\s+/)
@@ -687,7 +698,7 @@ function analyse(html) {
     // for job lists laid out as tables (title | department | date), see anyDate
     const strong = DEADLINE_WORDS.test(x);
     for (const d of findDates(x)) if (d >= t && d <= horizon) cands.push({ d: iso(d), s: strong ? ctx(i) : x.toLowerCase(), weak: !strong });
-    if (OPEN_WORDS.test(x) && !CLOSED_WORDS.test(x)) opens.push(ctx(i));
+    if (OPEN_WORDS.test(x) && !CLOSED_WORDS.test(x) && !oldYear(x)) opens.push(ctx(i));
   });
   return { hash: hashText(sentences.join("|")), cands: cands.slice(0, 40), opens: opens.slice(0, 10) };
 }
@@ -766,8 +777,8 @@ function parseFinn(html) {
       .replace(/<(script|style)[\s\S]*?<\/\1>/gi, " ")
       .split(/<[^>]+>/).map((x) => clean(x)).filter((x) => x.length > 1);
     const company = after[0] && after[0].length < 70 ? after[0] : "finn.no";
-    const context = role + " " + after.slice(0, 3).join(" ");
-    if (!ENTRY_LEVEL.test(context) || !SHIPPING_WORDS.test(context)) continue;
+    const context = role + " " + company;
+    if (!ENTRY_LEVEL.test(role) || !SHIPPING_WORDS.test(context)) continue;
     out.push({ company, role, url, time: 0, source: "finn", tier: tierOf(context) });
   }
   return out;
@@ -879,6 +890,8 @@ function addRow(parent, e, fontSize, dateWidth) {
   dcol.size = new Size(dateWidth, 0);
   const d = dcol.addText(e.dateLabel);
   d.font = Font.mediumMonospacedSystemFont(fontSize - 2);
+  d.lineLimit = 1;
+  d.minimumScaleFactor = 0.75;
   d.textColor = e.color;
   dcol.addSpacer();
 
@@ -918,10 +931,10 @@ function liveRow(it) {
 function largeBudget() {
   if (SIZE_OVERRIDE && SIZE_OVERRIDE.large) return SIZE_OVERRIDE.large;
   const h = Device.screenSize().height;
-  if (h >= 900) return 16;   // Plus / Pro Max
-  if (h >= 840) return 14;   // standard and Pro
-  if (h >= 800) return 13;   // mini
-  return 12;                 // SE
+  if (h >= 900) return 18;   // Plus / Pro Max
+  if (h >= 840) return 16;   // standard and Pro
+  if (h >= 800) return 14;   // mini
+  return 13;                 // SE
 }
 
 // ================= WIDGETS =================
@@ -942,14 +955,14 @@ function buildNext(tr, live) {
   list.layoutVertically();
   list.spacing = 4;
 
-  const rows = tr.act.slice(0, 3);
-  if (rows.length < 3) rows.push(...tr.soon.slice(0, 3 - rows.length));
+  const rows = tr.act.slice(0, 4);
+  if (rows.length < 4) rows.push(...tr.soon.slice(0, 4 - rows.length));
   if (!rows.length) {
     const t = list.addText("Nothing to act on right now.");
     t.font = Font.italicSystemFont(11);
     t.textColor = C.dim;
   }
-  for (const e of rows) addRow(list, e, 12, 50);
+  for (const e of rows) addRow(list, e, 12, 56);
 
   w.addSpacer();
   const foot = w.addStack();
@@ -994,7 +1007,7 @@ function buildTrackerWidget(tr, live) {
     t.font = Font.italicSystemFont(fs);
     t.textColor = C.dim;
   }
-  for (const e of actRows) addRow(a, e, fs, 46);
+  for (const e of actRows) addRow(a, e, fs, 54);
 
   if (soonRows.length) {
     divider(w);
@@ -1003,7 +1016,7 @@ function buildTrackerWidget(tr, live) {
     const s = w.addStack();
     s.layoutVertically();
     s.spacing = 3;
-    for (const e of soonRows) addRow(s, e, fs, 46);
+    for (const e of soonRows) addRow(s, e, fs, 54);
   }
 
   if (liveRows) {
@@ -1013,7 +1026,7 @@ function buildTrackerWidget(tr, live) {
     const l = w.addStack();
     l.layoutVertically();
     l.spacing = 3;
-    for (const e of liveItems.slice(0, liveRows)) addRow(l, e, fs, 46);
+    for (const e of liveItems.slice(0, liveRows)) addRow(l, e, fs, 54);
   }
 
   w.addSpacer();
