@@ -36,7 +36,7 @@ const REMOTE_HOURS = 12;
 //         "closed"
 // Dates are YYYY-MM-DD. Add, edit or delete entries freely.
 
-let VERIFIED = "16 Oct 2026";
+let VERIFIED = "19 Oct 2026";
 
 let TRACKED = [
   {
@@ -75,7 +75,20 @@ let TRACKED = [
       "https://careers.clarksons.com/search/?q=trainee"
     ],
     "watchKey": "trainee|programme|program|applications",
-    "note": "The flagship route to becoming a Clarksons broker. Last round, London closed 16 Feb 2026 and other offices stayed open longer. Two years with first-year rotations; Oslo had its own 2026 listing."
+    "note": "The flagship route to becoming a Clarksons broker. Last round, London closed 16 Feb 2026 and other offices stayed open longer. Two years with first-year rotations; Oslo had its own 2026 listing. Checked 16 Oct: the programme page still says only that the 2026 intake is closed."
+  },
+  {
+    "id": "clarksons-monaco-office",
+    "company": "Clarksons",
+    "role": "New Monaco office (various broking roles)",
+    "place": "Monaco",
+    "tier": 1,
+    "start": "Flexible",
+    "status": "rolling",
+    "url": "https://careers.clarksons.com/Clarksons/job/Monaco-New-Monaco-Office-%28various-opportunities-available%29-MC/1172355601/",
+    "watch": "https://careers.clarksons.com/search/?q=Monaco",
+    "watchKey": "Monaco",
+    "note": "Clarksons is opening an office in Monaco (dry cargo, tankers, gas, S&P and more) and invites interest across experience levels. Reposted 14 Oct 2026. Monaco is outside the EU/EEA, so ask careers@clarksons.com whether they would hire a junior and handle the Monaco work permit."
   },
   {
     "id": "mb-student-market-research",
@@ -101,7 +114,10 @@ let TRACKED = [
     "start": "Flexible",
     "status": "rolling",
     "url": "https://jobs.mbshipbrokers.com/hrmeasy_recruitment.nsf/0/82046AF7789368DCC1257D5700262C39?opendocument",
-    "note": "Open year-round through their job portal. Useful for flagging interest in the 2027 trainee intake early."
+    "note": "Open through their job portal, currently listed with an end date of 31 Dec 2026 (it is renewed each year). Useful for flagging interest in the 2027 trainee intake early.",
+    "watch": "https://jobs.mbshipbrokers.com/hrmeasy_recruitment.nsf/ShowJobList?OpenAgent",
+    "watchKey": "unsolicited",
+    "anyDate": true
   },
   {
     "id": "howe-robinson-trainee",
@@ -113,7 +129,7 @@ let TRACKED = [
     "status": "rolling",
     "url": "https://www.howerobinson.com/directory/careers/trainee-shipbroker/",
     "watch": "https://www.howerobinson.com/directory/careers/trainee-shipbroker/",
-    "note": "Send CV and cover letter to recruitment@howerob.com quoting reference TR20. Ask specifically about their non-UK offices."
+    "note": "Trainee places listed as open in all offices, including Copenhagen, Bergen, Kristiansand, Hamburg and Geneva. Send CV and cover letter to recruitment@howerob.com quoting reference TR20 and name the office you want."
   },
   {
     "id": "fearnleys-open",
@@ -233,6 +249,21 @@ let TRACKED = [
     "note": "12-month programme rotating through offices and departments. Closed now with no 2027 dates, so also send an unsolicited CV through the page."
   },
   {
+    "id": "ssy-trainee-2027",
+    "company": "SSY",
+    "role": "Trainee Scheme (September 2027 intake)",
+    "place": "Oslo, Bergen, Hamburg, Athens, London",
+    "tier": 2,
+    "start": "September 2027",
+    "status": "expected",
+    "opens": "2027-02-01",
+    "est": true,
+    "url": "https://www.ssyglobal.com/trainee-scheme",
+    "watch": "https://www.ssyglobal.com/trainee-scheme",
+    "watchKey": "trainee|applications|2027",
+    "note": "Desk-based trainee scheme. Opening date is an estimate: the 2024 and 2026 rounds opened on 1 and 9 February, and the September 2026 intake is now closed. Name Oslo or Hamburg when you apply."
+  },
+  {
     "id": "torm-student",
     "company": "TORM",
     "role": "Student Assistant (commercial/chartering)",
@@ -246,6 +277,19 @@ let TRACKED = [
     "note": "Product tanker owner. Student assistants (15-20 h/week) are hired as departments need them; set up TORM's job agent to be told first."
   },
   {
+    "id": "ultrabulk-talent-pipeline",
+    "company": "Ultrabulk",
+    "role": "Shipping Talent Pipeline (internships, trainee and graduate roles)",
+    "place": "Copenhagen and other offices",
+    "tier": 3,
+    "start": "Flexible",
+    "status": "rolling",
+    "url": "https://ultranav.career.emply.com/ad/shipping-talent-pipeline/5a508z/en",
+    "watch": "https://ultrabulk.com/career/",
+    "watchKey": "intern|trainee|graduate|student",
+    "note": "Dry bulk operator with a large chartering desk. This is an open invitation to be considered for internships, trainee roles and graduate jobs across their offices, with no deadline. Join it now so you are on their list before roles are posted."
+  },
+  {
     "id": "cargill-ot-academy",
     "company": "Cargill Ocean Transportation",
     "role": "Ocean Transportation Academy Trainee",
@@ -255,8 +299,25 @@ let TRACKED = [
     "status": "expected",
     "opens": "2026-11-15",
     "est": true,
-    "url": "https://careers.cargill.com/en/job/schiphol/ocean-transportation-academy-trainee-m-f-d/23251/90269551328",
-    "note": "Chartering and freight trading desk of one of the largest charterers. The 2026 intake started in June; 2027 dates are not published yet."
+    "url": "https://careers.cargill.com/en/search-jobs?k=ocean%20transportation%20academy",
+    "note": "Chartering and freight trading desk of one of the largest charterers. The 2026 intake started in June and its posting has now been taken down; 2027 dates are not published yet, so search Cargill careers for 'Ocean Transportation Academy'."
+  },
+  {
+    "id": "western-bulk-commercial-trainee",
+    "company": "Western Bulk",
+    "role": "Commercial Trainee (chartering, 12 months)",
+    "place": "Oslo or other Western Bulk offices",
+    "tier": 3,
+    "start": "Flexible, 2027",
+    "status": "expected",
+    "opens": "2026-10-31",
+    "est": true,
+    "deadline": "2026-11-14",
+    "deadlineEst": true,
+    "url": "https://www.westernbulk.com/press/news/kickstart-your-career-in-global-shipping-and-trading",
+    "watch": "https://www.finn.no/job/search?q=Western%20Bulk",
+    "watchKey": "Western Bulk.*(Trainee|trainee)",
+    "note": "Dry bulk operator with a big chartering desk. Last year's round was posted 15 Oct 2025 and closed 7 Nov 2025, leading to a Junior Chartering Manager role; a bachelor's is enough. No 2026 post seen yet, so dates are estimates. You can email trainee@westernbulk.com now to flag interest."
   },
   {
     "id": "norden-trainee",
@@ -299,7 +360,7 @@ let TRACKED = [
     "url": "https://centalion.com/careers/graduate-program",
     "watch": "https://centalion.com/careers/graduate-program",
     "watchKey": "applications|deadline|graduate",
-    "note": "Applications open now. Commodity trader with its own shipping arm (Clearlake Shipping). Degree must be finished by June 2027. Last year's window closed 31 October, so apply this month."
+    "note": "Applications open now. Commodity trader with its own shipping arm (Clearlake Shipping). Degree must be finished by June 2027. The page gives no closing date and says decisions are made by year end; last year's window closed 31 October, so apply this week."
   },
   {
     "id": "wilhelmsen-summer-2027",
@@ -307,11 +368,13 @@ let TRACKED = [
     "role": "Summer Internship 2027",
     "place": "Lysaker, Oslo",
     "tier": 4,
-    "start": "June 2027 (6 weeks)",
+    "start": "14 June 2027 (6 weeks)",
     "status": "open",
     "deadline": "2026-10-25",
-    "url": "https://www.finn.no/job/search?q=Wilhelmsen%20Summer%20Internship%202027",
-    "note": "Shipowner and ship manager. Project in weeks 24-26 and 30-32. Students graduating in 2028 are prioritised."
+    "url": "https://wilhelmsen.wd3.myworkdayjobs.com/Wilhelmsen/job/Lysaker/Wilhelmsen-Summer-Internship-2027_JOBREQ_13100",
+    "note": "Shipowner and ship manager. Deadline 25 Oct confirmed on the NHHS job board; starts 14 June 2027 at the Lysaker head office. Project in weeks 24-26 and 30-32. Students graduating in 2028 are prioritised, so stress your interest in staying on. Apply through Wilhelmsen's Workday page.",
+    "watch": "https://www.nu.nhhs.no/jobs/2052/details",
+    "watchKey": "wilhelmsen|summer internship 2027"
   }
 ];
 
