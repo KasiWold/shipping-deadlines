@@ -1,5 +1,5 @@
 {
-  "verified": "2026-10-16",
+  "verified": "2026-10-19",
   "tiers": {
     "1": "Clarksons itself",
     "2": "Shipbroking firm",
@@ -46,6 +46,19 @@
       "note": "The flagship route to becoming a Clarksons broker. Last round, London closed 16 Feb 2026 and other offices stayed open longer. Two years with first-year rotations; Oslo had its own 2026 listing. Checked 16 Oct: the programme page still says only that the 2026 intake is closed."
     },
     {
+      "id": "clarksons-monaco-office",
+      "company": "Clarksons",
+      "role": "New Monaco office (various broking roles)",
+      "place": "Monaco",
+      "tier": 1,
+      "start": "Flexible",
+      "status": "rolling",
+      "url": "https://careers.clarksons.com/Clarksons/job/Monaco-New-Monaco-Office-%28various-opportunities-available%29-MC/1172355601/",
+      "watch": "https://careers.clarksons.com/search/?q=Monaco",
+      "watchKey": "Monaco",
+      "note": "Clarksons is opening an office in Monaco (dry cargo, tankers, gas, S&P and more) and invites interest across experience levels. Reposted 14 Oct 2026. Monaco is outside the EU/EEA, so ask careers@clarksons.com whether they would hire a junior and handle the Monaco work permit."
+    },
+    {
       "id": "mb-student-market-research",
       "company": "MB Shipbrokers",
       "role": "Student Assistant, Market Research",
@@ -84,7 +97,7 @@
       "status": "rolling",
       "url": "https://www.howerobinson.com/directory/careers/trainee-shipbroker/",
       "watch": "https://www.howerobinson.com/directory/careers/trainee-shipbroker/",
-      "note": "Send CV and cover letter to recruitment@howerob.com quoting reference TR20. Ask specifically about their non-UK offices."
+      "note": "Trainee places listed as open in all offices, including Copenhagen, Bergen, Kristiansand, Hamburg and Geneva. Send CV and cover letter to recruitment@howerob.com quoting reference TR20 and name the office you want."
     },
     {
       "id": "fearnleys-open",
@@ -204,6 +217,21 @@
       "note": "12-month programme rotating through offices and departments. Closed now with no 2027 dates, so also send an unsolicited CV through the page."
     },
     {
+      "id": "ssy-trainee-2027",
+      "company": "SSY",
+      "role": "Trainee Scheme (September 2027 intake)",
+      "place": "Oslo, Bergen, Hamburg, Athens, London",
+      "tier": 2,
+      "start": "September 2027",
+      "status": "expected",
+      "opens": "2027-02-01",
+      "est": true,
+      "url": "https://www.ssyglobal.com/trainee-scheme",
+      "watch": "https://www.ssyglobal.com/trainee-scheme",
+      "watchKey": "trainee|applications|2027",
+      "note": "Desk-based trainee scheme. Opening date is an estimate: the 2024 and 2026 rounds opened on 1 and 9 February, and the September 2026 intake is now closed. Name Oslo or Hamburg when you apply."
+    },
+    {
       "id": "torm-student",
       "company": "TORM",
       "role": "Student Assistant (commercial/chartering)",
@@ -283,7 +311,7 @@
       "url": "https://centalion.com/careers/graduate-program",
       "watch": "https://centalion.com/careers/graduate-program",
       "watchKey": "applications|deadline|graduate",
-      "note": "Applications open now. Commodity trader with its own shipping arm (Clearlake Shipping). Degree must be finished by June 2027. Last year's window closed 31 October, so apply this month."
+      "note": "Applications open now. Commodity trader with its own shipping arm (Clearlake Shipping). Degree must be finished by June 2027. The page gives no closing date and says decisions are made by year end; last year's window closed 31 October, so apply this week."
     },
     {
       "id": "wilhelmsen-summer-2027",
@@ -308,6 +336,18 @@
     {
       "date": "2026-10-16",
       "summary": "Second check today. Re-checked all items on their own pages plus Clarksons careers search, NHHS, finn.no, Jobindex, Danish Shipping and broker careers pages. Added Ultrabulk Shipping Talent Pipeline (rolling). Confirmed Wilhelmsen deadline 25 Oct and start 14 June 2027, and updated its link. MB unsolicited application now runs to 31 Dec 2026. Cargill 2026 posting removed. Found Clarksons Oslo Summer Internship 2027 had already closed (2 Oct), so not added. No 2027 dates yet for Clarksons GTBP, Ifchor, BRS, Lightship or Braemar."
+    },
+    {
+      "date": "2026-10-16",
+      "summary": "Third check today. Re-checked MB Shipbrokers job list (student assistant deadline 30 Oct, unsolicited to 31 Dec), Wilhelmsen (25 Oct), Centalion (still open, no deadline shown), Clarksons GTBP and careers search, Lightship, Steem1960, Trafigura Geneva, Oldendorff, Frachtcontor, Norden, finn.no, Jobindex and NHHS. Steem1960's last cycle closed 21 Jan 2026, which supports the current estimate. No new opportunities and no date changes. Trafigura Geneva 2027 and Oldendorff 2026 already closed, so not added."
+    },
+    {
+      "date": "2026-10-16",
+      "summary": "Fourth check today (test run focused on saving). Re-checked MB Shipbrokers job list (student assistant 30 Oct, unsolicited to 31 Dec), Centalion (still open, no deadline shown) and the Clarksons GTBP page (2026 intake closed, nothing on 2027). No changes to any opportunity. The repository was still at the second-check version, so the third check's log entry was added too. GitHub push failed with this error: remote: access denied by the git proxy: KasiWold/shipping-deadlines is not in this session's authorized repository set, so the proxy will not inject a credential for it. To fix, add the repository to the session's sources. fatal: unable to access 'https://github.com/KasiWold/shipping-deadlines.git/': The requested URL returned error: 403"
+    },
+    {
+      "date": "2026-10-19",
+      "summary": "Re-checked all items on their own pages plus Clarksons careers search (Oslo, Hamburg, Geneva, Hellerup, intern, trainee), NHHS, finn.no, Maritime Trainee, Braemar, SSY, BRS, Ifchor, Lightship, Fearnleys, Norden, TORM, Trafigura and Centalion. Added Clarksons new Monaco office (rolling) and SSY Trainee Scheme 2027 (expected Feb 2027). Howe Robinson now lists Copenhagen, Bergen, Hamburg and Geneva. No 2027 dates yet for Clarksons GTBP or Hellerup intern. Skipped: Klaveness summer (engineering only), Clarksons Rotterdam operator (Dutch and experience needed), Trafigura Geneva (closed), Maritime Trainee (only DOF and VARD left, master's level). GitHub push failed again: the repository is not authorized for this session, so only this page was updated."
     }
   ]
 }
