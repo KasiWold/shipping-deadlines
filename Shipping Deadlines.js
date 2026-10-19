@@ -102,7 +102,7 @@ let TRACKED = [
     "url": "https://jobs.mbshipbrokers.com/hrmeasy_recruitment.nsf/0/029DB3A9AE8B284EC1258E90002E456A?opendocument",
     "watch": "https://jobs.mbshipbrokers.com/hrmeasy_recruitment.nsf/ShowJobList?OpenAgent",
     "watchKey": "market research",
-    "note": "Two openings: one supporting the container team, one the bulk/tanker team. Deadline confirmed on MB's own job list.",
+    "note": "Two openings: one supporting the container team, one the bulk/tanker team. MB's job list shows 30 Oct, and the posting says they screen and interview on an ongoing basis, so apply as soon as you can.",
     "anyDate": true
   },
   {
