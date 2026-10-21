@@ -1,5 +1,5 @@
 {
-  "verified": "2026-10-19",
+  "verified": "2026-10-21",
   "tiers": {
     "1": "Clarksons itself",
     "2": "Shipbroking firm",
@@ -286,22 +286,24 @@
       "url": "https://www.westernbulk.com/press/news/kickstart-your-career-in-global-shipping-and-trading",
       "watch": "https://www.finn.no/job/search?q=Western%20Bulk",
       "watchKey": "western bulk.*\\btrainee\\b|\\btrainee\\b.*western bulk",
-      "note": "Dry bulk operator with a big chartering desk. Last year's 12-month Commercial Trainee round was posted 15 Oct 2025 and closed 7 Nov 2025, leading to a junior chartering role. A bachelor's is enough, though 1-2 years of sales or trading experience is preferred. Nothing posted yet this year, so email trainee@westernbulk.com now."
+      "note": "Dry bulk operator with a big chartering desk. Last year's 12-month Commercial Trainee round was posted 15 Oct 2025 and closed 7 Nov 2025, leading to a junior chartering role. As of 21 Oct 2026 no new round is posted and Western Bulk's careers page lists no trainee programme, so this year's round may be late or skipped. A bachelor's is enough, though 1-2 years of sales or trading experience is preferred. Email trainee@westernbulk.com or register in their candidate portal now."
     },
     {
       "id": "norden-trainee",
       "company": "Norden",
       "role": "Shipping Trainee, Chartering/Operations",
-      "place": "Copenhagen",
+      "place": "Copenhagen and other Norden offices",
       "tier": 3,
       "start": "Aug/Sept 2027",
       "status": "expected",
-      "opens": "2027-02-15",
+      "opens": "2026-12-01",
       "est": true,
       "deadline": "2027-03-30",
       "deadlineEst": true,
-      "url": "https://www.jobindex.dk/jobsoegning?q=norden%20shipping%20trainee",
-      "note": "Dry bulk and tankers. Previous rounds closed 16 March and 27 April 2025. Includes the Danish Shipping Academy."
+      "url": "https://www.norden.com/career/kickstart-your-career/",
+      "note": "Two-year Shipping Trainee programme in chartering and operations with a September start, including the Danish Shipping Academy. Norden's own career page says recruitment starts in December, so check from 1 December. Previous rounds closed 16 March and 27 April 2025, and the 2026 Annapolis (US) round closed 26 April 2026, so the deadline is an estimate. The US office asked for existing US work rights; Copenhagen needs no permit. Norden's 9-month intern role is only for CBS International Shipping and Trade students.",
+      "watch": "https://www.norden.com/career/open-positions/",
+      "watchKey": "\\bshipping trainees?\\b"
     },
     {
       "id": "stena-bulk-trainee",
@@ -341,7 +343,7 @@
       "status": "open",
       "deadline": "2026-10-25",
       "url": "https://wilhelmsen.wd3.myworkdayjobs.com/Wilhelmsen/job/Lysaker/Wilhelmsen-Summer-Internship-2027_JOBREQ_13100",
-      "note": "Shipowner and ship manager. Deadline 25 Oct confirmed on the NHHS job board; starts 14 June 2027 at the Lysaker head office. Project in weeks 24-26 and 30-32. Students graduating in 2028 are prioritised, so stress your interest in staying on. Apply through Wilhelmsen's Workday page.",
+      "note": "Shipowner and ship manager. Deadline 25 Oct, confirmed on Wilhelmsen's own Workday posting and the NHHS job board; starts 14 June 2027 at the Lysaker head office. Six weeks in two blocks (weeks 24-26 and 30-32). Students graduating in 2028 are prioritised, so stress your interest in staying on. Apply this week.",
       "watch": "https://www.nu.nhhs.no/jobs/2052/details",
       "watchKey": "\\bwilhelmsen\\b|\\bsummer internship 2027\\b"
     },
@@ -357,7 +359,7 @@
       "url": "https://www.finn.no/job/ad/477483379",
       "watch": "https://www.finn.no/job/ad/477483379",
       "watchKey": "\\bgolar\\b|\\bsummer internship\\b",
-      "note": "LNG shipping company. Open to 3rd and 4th year students in business and other fields; you must pick a project. Most projects are technical; Business Development and Legal sit in London (UK work permit needed). Candidates are assessed continuously, so apply early."
+      "note": "LNG shipping company. Open to 3rd and 4th year students in business and other fields; you must pick a project. Most projects are technical; Business Development and Legal sit in London (UK work permit needed). The finn.no ad (updated 12 Oct) confirms the 8 November deadline. Candidates are assessed continuously, so apply early."
     },
     {
       "id": "ldc-emea-graduate-2027",
@@ -474,7 +476,7 @@
       "tier": 3,
       "start": "Graduate 6 Sep 2027; internship 21 Jun to 3 Sep 2027",
       "status": "expected",
-      "opens": "2026-10-14",
+      "opens": "2026-11-12",
       "est": true,
       "visa": "permit",
       "url": "https://www.brightnetwork.co.uk/graduate-jobs/bp/supply-trading-shipping-graduate-programme-2027",
@@ -483,7 +485,9 @@
         "https://careers.bp.com/early-careers/internships"
       ],
       "watchKey": "supply, trading|\\bshipping\\b|applications open",
-      "note": "bp's Supply, Trading & Shipping graduate programme (three years) and 11-week summer internship for 2027. bp's listing says recruitment opened on 14 October and runs on a rolling basis, so places can go early, but bp's own careers page still says 'opening soon', so check it now. bp lets you make only one early-careers application worldwide per year, so pick graduate or internship. Visa sponsorship is not mentioned."
+      "note": "bp's Supply, Trading & Shipping graduate programme (three years, start 6 Sep 2027) and 11-week summer internship (21 Jun to 3 Sep 2027). bp's own graduates page now says applications open 12-30 November 2026; it does not say whether that window is the UK one, so the dates are marked as estimates. bp's Bright Network listing calls the deadline rolling, so apply on 12 November. You can make only one bp early-careers application worldwide per year, so pick graduate or internship. Visa sponsorship is not mentioned, and the UK needs a Skilled Worker visa.",
+      "deadline": "2026-11-30",
+      "deadlineEst": true
     },
     {
       "id": "oldendorff-operations-2027",
@@ -584,6 +588,10 @@
     {
       "date": "2026-10-19",
       "summary": "Scope widened to every country, including London, Singapore, Hong Kong, Dubai and the US; visa needs are now shown on each entry instead of being a reason to leave it out. Added Clarksons Trainee Broker Houston (open, crude desk), Clarksons London Broking Summer Internship 2027 (UK work rights needed, no sponsorship), Braemar Trainee Broker Programme 2027 (London, last round 18 Mar to 19 Apr), Gibson Trainee Broker Scheme, Pacific Basin Graduate Trainee 2027 (Hong Kong), bp Supply, Trading & Shipping graduate and internship 2027 (UK), Oldendorff Operations Trainee 2027 (Hamburg, open), Advanced Chartering Program 2027 and Research Trainee (Singapore, open), and Vitol London early careers. Updated locations for the Clarksons trainee programme, Howe Robinson, Fearnleys, SSY and Cargill. Checked and left out: Clarksons Singapore LNG trainee (3 years' experience), Hong Kong S&P trainee (filled), Tokyo analyst (native Japanese), Clarksons Securities Oslo summer 2027 (closed), Trafigura 2027 graduate (closed), BW Future Leaders (Singapore graduates), Oldendorff Singapore operations (Singapore citizens and PR only), Maritime Trainee 2027 (needs a master's), Maersk UK graduate (logistics, no sponsorship), McQuilling (5 years' experience)."
+    },
+    {
+      "date": "2026-10-21",
+      "summary": "Re-checked Clarksons' full worldwide job board (26 postings), the trainee programme, London and Oslo internship pages, MB Shipbrokers, Wilhelmsen (Workday, deadline 25 Oct confirmed), Golar (8 Nov confirmed), Centalion (open, no closing date), Western Bulk (no 2026 round posted yet), Oldendorff, bp, Braemar, SSY, BRS, Lightship, Howe Robinson, Gibson, Vitol, Trafigura, Klaveness, Norden, finn.no, NHHS, Indeed SG and CH. Changes: bp's own page now gives an application window of 12-30 November 2026; Norden's career page says trainee recruitment starts in December, so its opening estimate moved from 15 Feb to 1 Dec. Six unsuitable Clarksons postings added to ignore (experience or Japanese/Dutch required). Left out: Norden 9-month intern (CBS shipping students only), Klaveness Sea Going summer (engineering), Norwest chartering Bergen (experienced, Norwegian), DNV Maritime Advisory trainee (master's, closed), Trafigura China graduate (Mandarin market). Lead not verified: Indeed SG shows a Clarksons Singapore Trainee Shipbroker (Dry Cargo, Handymax) that is not on Clarksons' own board, so probably old. The Clarksons search pages with filters could not be opened this run; the full job list was read instead. GitHub push succeeded."
     }
   ],
   "ignore": [
@@ -598,6 +606,30 @@
     {
       "match": "1417558233",
       "why": "Clarksons Junior Commercial Shipping Analyst, Tokyo: native-level Japanese required"
+    },
+    {
+      "match": "1448920033",
+      "why": "Clarksons Tanker Post-Fixture Operator, Athens/London: previous tanker operations experience required"
+    },
+    {
+      "match": "874514601",
+      "why": "Clarksons Commercial Shipping Market Analyst (Crude), Houston: proven shipping market analysis experience required"
+    },
+    {
+      "match": "1434031533",
+      "why": "Clarksons Post-Fixture Shipping Operator, Rotterdam: fluent Dutch and a year in shipping required"
+    },
+    {
+      "match": "1428190133",
+      "why": "Clarksons Dry Cargo Period Broker, Tokyo: experienced broker, fluent Japanese required"
+    },
+    {
+      "match": "1401755933",
+      "why": "Clarksons Broker Handy/Supra, Tokyo: 2-5 years in dry bulk and Japanese required"
+    },
+    {
+      "match": "1372701333",
+      "why": "Clarksons Biomethane Broker (London, Hamburg, Madrid, Hellerup): 2-3+ years in the market required"
     }
   ]
 }
