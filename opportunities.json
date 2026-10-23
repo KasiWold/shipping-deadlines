@@ -1,5 +1,5 @@
 {
-  "verified": "2026-10-21",
+  "verified": "2026-10-23",
   "tiers": {
     "1": "Clarksons itself",
     "2": "Shipbroking firm",
@@ -233,6 +233,20 @@
       "note": "12-month desk-based trainee scheme. SSY's February 2026 round took trainees in London, Athens, Oslo, Bergen and Hamburg; that round opened 9 February 2026. Name the office you want when you apply; London needs a UK work visa, Oslo, Bergen, Hamburg and Athens do not."
     },
     {
+      "id": "ssy-derivatives-internship-london",
+      "company": "SSY",
+      "role": "Internship, Derivatives Broking (3 months)",
+      "place": "London",
+      "tier": 2,
+      "start": "Various start dates, 3 months",
+      "status": "rolling",
+      "visa": "permit",
+      "url": "https://www.ssyglobal.com/careers",
+      "watch": "https://www.ssyglobal.com/careers",
+      "watchKey": "\\bderivatives?\\b.*\\bintern(ship)?s?\\b|\\bintern(ship)?s?\\b.*\\bderivatives?\\b",
+      "note": "Three-month internship on SSY's freight derivatives (FFA) broking desk in London, with various start dates and no closing date shown. Email your CV and a short cover note to careers@ssyglobal.com with 'Internships: Derivatives Broking' in the subject line and say when you can start. SSY checks UK right to work and says nothing about sponsorship, so ask before applying; a Norwegian needs a UK work visa."
+    },
+    {
       "id": "torm-student",
       "company": "TORM",
       "role": "Student Assistant (commercial/chartering)",
@@ -405,13 +419,13 @@
       "deadline": "2027-02-09",
       "deadlineEst": true,
       "visa": "nosponsor",
-      "url": "https://www.clarksons.com/home/careers/early-careers/broking-summer-internship",
+      "url": "https://www.clarksons.com/home/careers/early-careers/broking-summer-internship-london/",
       "watch": [
-        "https://www.clarksons.com/home/careers/early-careers/broking-summer-internship",
+        "https://www.clarksons.com/home/careers/early-careers/broking-summer-internship-london/",
         "https://careers.clarksons.com/search/?q=intern"
       ],
       "watchKey": "summer internship|\\b2027\\b",
-      "note": "Five weeks rotating across Clarksons' London broking desks, and it can lead to a full-time job. The 2026 round closed 9 Feb 2026. Clarksons requires the right to work in the UK and says it cannot sponsor visas, and Norwegians are not in the UK Youth Mobility Scheme, so this only works if you get UK work rights another way. Clarksons' Oslo summer internship 2027 closed in early October 2026."
+      "note": "Five weeks rotating across Clarksons' London broking desks, and it can lead to a full-time job. The 2026 round closed 9 Feb 2026. Clarksons requires the right to work in the UK and says it cannot sponsor visas, and Norwegians are not in the UK Youth Mobility Scheme, so this only works if you get UK work rights another way. Clarksons' Oslo summer internship 2027 closed on 2 October 2026, so next year look for the Oslo round from early September."
     },
     {
       "id": "braemar-trainee-2027",
@@ -485,7 +499,7 @@
         "https://careers.bp.com/early-careers/internships"
       ],
       "watchKey": "supply, trading|\\bshipping\\b|applications open",
-      "note": "bp's Supply, Trading & Shipping graduate programme (three years, start 6 Sep 2027) and 11-week summer internship (21 Jun to 3 Sep 2027). bp's own graduates page now says applications open 12-30 November 2026; it does not say whether that window is the UK one, so the dates are marked as estimates. bp's Bright Network listing calls the deadline rolling, so apply on 12 November. You can make only one bp early-careers application worldwide per year, so pick graduate or internship. Visa sponsorship is not mentioned, and the UK needs a Skilled Worker visa.",
+      "note": "bp's Supply, Trading & Shipping graduate programme (three years, start 6 Sep 2027) and 11-week summer internship (21 Jun to 3 Sep 2027). bp's own graduates page now says applications open 12-30 November 2026; it does not say whether that window is the UK one, so the dates are marked as estimates. bp's Bright Network listing calls the deadline rolling, so apply on 12 November. You can make only one bp early-careers application worldwide per year, so pick graduate or internship. Visa sponsorship is not mentioned, and the UK needs a Skilled Worker visa. The same bp pages also show a notice that ST&S applications are closed due to volume; since the window has not opened yet this is probably left over from last year, but it suggests ST&S fills quickly, so apply on day one.",
       "deadline": "2026-11-30",
       "deadlineEst": true
     },
@@ -592,6 +606,10 @@
     {
       "date": "2026-10-21",
       "summary": "Re-checked Clarksons' full worldwide job board (26 postings), the trainee programme, London and Oslo internship pages, MB Shipbrokers, Wilhelmsen (Workday, deadline 25 Oct confirmed), Golar (8 Nov confirmed), Centalion (open, no closing date), Western Bulk (no 2026 round posted yet), Oldendorff, bp, Braemar, SSY, BRS, Lightship, Howe Robinson, Gibson, Vitol, Trafigura, Klaveness, Norden, finn.no, NHHS, Indeed SG and CH. Changes: bp's own page now gives an application window of 12-30 November 2026; Norden's career page says trainee recruitment starts in December, so its opening estimate moved from 15 Feb to 1 Dec. Six unsuitable Clarksons postings added to ignore (experience or Japanese/Dutch required). Left out: Norden 9-month intern (CBS shipping students only), Klaveness Sea Going summer (engineering), Norwest chartering Bergen (experienced, Norwegian), DNV Maritime Advisory trainee (master's, closed), Trafigura China graduate (Mandarin market). Lead not verified: Indeed SG shows a Clarksons Singapore Trainee Shipbroker (Dry Cargo, Handymax) that is not on Clarksons' own board, so probably old. The Clarksons search pages with filters could not be opened this run; the full job list was read instead. GitHub push succeeded."
+    },
+    {
+      "date": "2026-10-23",
+      "summary": "Re-checked Clarksons' worldwide job board (27 postings; the last 2 load dynamically and could not be read), the trainee programme, London and Oslo internship pages (all still closed), MB Shipbrokers (market research student job still live), Wilhelmsen (25 Oct still live), Golar (8 Nov), Centalion (open, no closing date), Western Bulk (no trainee round posted), bp (12-30 Nov window confirmed), Oldendorff, Pacific Basin, Norden, TORM, Stena, Trafigura, Vitol, SSY, Braemar, Gibson, Howe Robinson, Fearnleys, BRS, Lightship, Ifchor, NHHS, finn.no, Jobindex. Added SSY Derivatives Broking internship in London (rolling, UK visa needed). Fixed the Clarksons London internship link. Two Clarksons postings added to ignore (Bethesda Jones Act broker and London options broker, both experienced). Left out: Norwegian Maritime Trainee 2027 (master's), Klaveness summer (engineering), Trafigura Commercial Programme 2027 (closed), Glencore London 2027 (closed 9 Oct), Gibson gas desk trainee London (permanent UK residency required, second-hand), McQuilling (5 years). Leads not verified: NOWACO Shipping Trainee in Aalborg (Jobindex, posted 29 Sep, function unclear), Peak People agency/chartering internship in Nyborg (seen in finn.no results, ad not opened), Steem1960 vacancy board could not be opened. Danish Shipping Education holds an HR visitor day on 10 Nov. GitHub push succeeded."
     }
   ],
   "ignore": [
@@ -630,6 +648,14 @@
     {
       "match": "1372701333",
       "why": "Clarksons Biomethane Broker (London, Hamburg, Madrid, Hellerup): 2-3+ years in the market required"
+    },
+    {
+      "match": "1439841333",
+      "why": "Clarksons Broker (US Flag or Jones Act), Bethesda: previous broking and Jones Act experience required"
+    },
+    {
+      "match": "1368146433",
+      "why": "Clarksons Options Broker (commodity markets), London: 3+ years of options broking required"
     }
   ]
 }
