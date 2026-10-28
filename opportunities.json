@@ -1,5 +1,5 @@
 {
-  "verified": "2026-10-26",
+  "verified": "2026-10-28",
   "tiers": {
     "1": "Clarksons itself",
     "2": "Shipbroking firm",
@@ -10,20 +10,20 @@
     {
       "id": "clarksons-dk-intern-2027",
       "company": "Clarksons",
-      "role": "Shipbroker Intern 2027 (one year, full-time)",
+      "role": "2027 Shipbroker Intern (one year, full-time, S&P / secondhand)",
       "place": "Hellerup, Copenhagen",
       "tier": 1,
-      "start": "2027, one-year contract",
-      "status": "expected",
-      "opens": "2026-11-01",
-      "est": true,
-      "url": "https://careers.clarksons.com/search/?q=&locationsearch=Hellerup",
+      "start": "Approx. June 2027 to May 2028, fixed-term one year",
+      "status": "open",
+      "url": "https://careers.clarksons.com/Clarksons/job/Hellerup-2027-Shipbroker-Intern/1451265433/",
       "watch": [
         "https://careers.clarksons.com/search/?q=intern",
         "https://careers.clarksons.com/search/?q=&locationsearch=Hellerup"
       ],
       "watchKey": "\\bintern(ship)?s?\\b.*\\b(hellerup|copenhagen|københavn|denmark)\\b|\\b(hellerup|copenhagen|københavn|denmark)\\b.*\\bintern(ship)?s?\\b",
-      "note": "Clarksons Denmark hired a one-year full-time Shipbroker Intern for 2026 (now filled). A 2027 round has not been announced and the opening date is a guess. The widget checks Clarksons' job list every few hours and puts any new Clarksons role in Europe at the top. Ask your Clarksons Copenhagen contact whether they plan a 2027 intern."
+      "note": "Posted 26 October 2026 on Clarksons' job board (job ID 5491). Applications close 10 November 2026 and interviews run on a rolling basis through November, so apply as early as possible. Full-time one-year internship in the secondhand (S&P) team in Hellerup with the intention of a full-time hire afterwards. The ad is aimed at second-year CBS Shipping and Trade BSc students, which is not your programme, so apply anyway and lead with your Clarksons Copenhagen placement and that you finish your HA in June 2027, or ask your Clarksons contact whether they would consider you. S&P, dry cargo or container experience is an advantage, not a must. No visa needed.",
+      "deadline": "2026-11-10",
+      "visa": "free"
     },
     {
       "id": "clarksons-gtbp-2027",
@@ -490,7 +490,7 @@
       "tier": 3,
       "start": "Six-week paid internship from September 2027, then a 12-month traineeship from October",
       "status": "expected",
-      "opens": "2026-10-01",
+      "opens": "2026-11-15",
       "est": true,
       "url": "https://www.oldendorff.com/traineeships/chartering",
       "watch": [
@@ -498,7 +498,7 @@
         "https://www.oldendorff.com/traineeships"
       ],
       "watchKey": "chartering|\\b2027\\b",
-      "note": "Chartering traineeship: a paid internship first, then three interns are offered the 12-month traineeship. Oldendorff's overview page says applications for selected 2027 programmes are open, but the chartering page still only says 2026 is closed, so check both and email if unclear. Germany is visa-free for you; Singapore and Dubai need a work visa."
+      "note": "Chartering traineeship: a paid internship first, then three interns are offered the 12-month traineeship. On 28 October the chartering page still said applications are closed for 2026 while the operations, fleet and research programmes are open; the 2027 chartering opening date is a guess, so check the page and email if unclear. Germany is visa-free for you; Singapore and Dubai need a work visa."
     },
     {
       "id": "oldendorff-research-trainee",
@@ -579,6 +579,10 @@
     {
       "date": "2026-10-26",
       "summary": "Re-checked Clarksons' worldwide job board (26 postings, no new entry-level broking roles; Houston trainee broker and Monaco still live), the trainee programme page (2026 closed, nothing on 2027 yet), MB Shipbrokers (market research student job still live), Centalion (still open, no closing date), Western Bulk (still no new trainee round; the only ad is the Oct 2025 one), Golar, bp, Oldendorff, Pacific Basin (2027 details promised by year end), Norden, TORM, Braemar, SSY, Gibson, Fearnleys, BRS, Ifchor Galbraiths, Lightship, Vitol, Cargill, Steem1960, NHHS, Bright Network, TargetJobs, finn.no, Jobindex, Indeed UK. Changes: removed Wilhelmsen Summer Internship 2027 (deadline 25 Oct passed); removed bp Supply, Trading & Shipping 2027 UK graduate and internship, which Bright Network shows closed on 21 Oct 2026 and bp says are closed due to volume (the 12-30 Nov window is for other bp areas). Left out: DNV Maritime Advisory Trainee 2027 (master's, closed), Maritime Trainee 2027 (master's), ECOnnect summer 2027 (technical, closed), Hagland trainee Aberdeen (closed, no sponsorship), Gibson Singapore chemicals trainee (closed, Mandarin), Bunge Junior Charterer Geneva (closed), BBC Chartering apprenticeship (German dual system). Leads not verified: NOWACO Shipping Trainee Aalborg (Jobindex, function unclear); BBC Chartering takes chartering interns for at least 5 months in Leer (apply 3 months ahead, language not stated). Clarksons search pages with filters and some company pages could not be opened this run (link permission), so the full Clarksons job list was read instead. GitHub push succeeded."
+    },
+    {
+      "date": "2026-10-28",
+      "summary": "Checked Clarksons' worldwide job board (27 postings), the Global Trainee Broker Programme page (still only says the 2026 intake is closed), MB Shipbrokers (market research student job still listed), Centalion (graduate program still open, no closing date), Western Bulk (no 2026 trainee round yet, only the Oct 2025 ad), Oldendorff, Pacific Basin (2027 update promised by year end), Gibson (next intake 'soon'), Braemar (next round opens 2027), Lightship, Norden (no trainee or student roles listed), finn.no, TargetJobs and Indeed. Changes: Clarksons 2027 Shipbroker Intern in Hellerup is now posted (job 1451265433, closes 10 Nov 2026, aimed at second-year CBS Shipping and Trade students); Oldendorff Advanced Chartering 2027 still closed, opening estimate moved to 15 Nov. Left out: VARD Maritime Trainee 2027 (master's engineering, closed), Maritime Trainee group 20 (master's), LDC Freight Commercial graduate track Singapore (expired), Hagland Aberdeen trainee (closed, no sponsorship). Could not open Clarksons filtered searches, the second page of the Clarksons list (2 postings), Golar's finn ad, Fearnleys, Ifchor Galbraiths and MB's own job board this run (link permission), so those items are unchanged from 26 Oct. GitHub push succeeded."
     }
   ],
   "ignore": [
