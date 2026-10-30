@@ -1,5 +1,5 @@
 {
-  "verified": "2026-10-28",
+  "verified": "2026-10-30",
   "tiers": {
     "1": "Clarksons itself",
     "2": "Shipbroking firm",
@@ -345,7 +345,7 @@
       "url": "https://centalion.com/careers/graduate-program",
       "watch": "https://centalion.com/careers/graduate-program",
       "watchKey": "\\bgraduate\\b|applications",
-      "note": "Applications open now. Commodity trader with its own shipping arm (Clearlake Shipping). Degree must be finished by June 2027. The page gives no closing date and says decisions are made by year end; last year's window closed 31 October, so apply this week."
+      "note": "Applications open now (still open on 30 Oct). Commodity trader with its own shipping arm (Clearlake Shipping). Degree must be finished by June 2027. The page gives no closing date and says decisions are made by year end; last year's window closed 31 October, so apply now. Work permit eligibility is checked at CV screening; Geneva needs no permit, Singapore and Houston do."
     },
     {
       "id": "golar-summer-2027",
@@ -529,6 +529,20 @@
       "watch": "https://www.vitol.com/vitol-early-careers",
       "watchKey": "\\bgraduate\\b|\\bintern(ship)?s?\\b|applications",
       "note": "London early-careers roles at the world's largest independent oil trader, which runs one of the biggest tanker chartering desks. Applications are closed now and Vitol says to check back in winter, so the opening date is an estimate. For final-year students and recent graduates."
+    },
+    {
+      "id": "peak-csl-intern-ops-chartering",
+      "company": "Peak CSL Group (Peak People)",
+      "role": "Internship, Operations & Chartering (also Ship Agency)",
+      "place": "Bergen (agency track Bergen/Stavanger)",
+      "tier": 3,
+      "start": "By agreement, not stated",
+      "status": "rolling",
+      "visa": "free",
+      "url": "https://www.finn.no/job/ad/479327027",
+      "watch": "https://www.finn.no/job/ad/479327027",
+      "watchKey": "\\binternship\\b|\\bchartering\\b",
+      "note": "Norwegian offshore and maritime group. Full-time internship for students taking a relevant BSc or MSc (shipping, maritime management, logistics); fluent Norwegian and English required. Operations track covers vessel and voyage follow-up with insight into chartering. finn.no ad, deadline 'as soon as possible' and no start date given, so ask whether a 2027 start works."
     }
   ],
   "log": [
@@ -583,6 +597,10 @@
     {
       "date": "2026-10-28",
       "summary": "Checked Clarksons' worldwide job board (27 postings), the Global Trainee Broker Programme page (still only says the 2026 intake is closed), MB Shipbrokers (market research student job still listed), Centalion (graduate program still open, no closing date), Western Bulk (no 2026 trainee round yet, only the Oct 2025 ad), Oldendorff, Pacific Basin (2027 update promised by year end), Gibson (next intake 'soon'), Braemar (next round opens 2027), Lightship, Norden (no trainee or student roles listed), finn.no, TargetJobs and Indeed. Changes: Clarksons 2027 Shipbroker Intern in Hellerup is now posted (job 1451265433, closes 10 Nov 2026, aimed at second-year CBS Shipping and Trade students); Oldendorff Advanced Chartering 2027 still closed, opening estimate moved to 15 Nov. Left out: VARD Maritime Trainee 2027 (master's engineering, closed), Maritime Trainee group 20 (master's), LDC Freight Commercial graduate track Singapore (expired), Hagland Aberdeen trainee (closed, no sponsorship). Could not open Clarksons filtered searches, the second page of the Clarksons list (2 postings), Golar's finn ad, Fearnleys, Ifchor Galbraiths and MB's own job board this run (link permission), so those items are unchanged from 26 Oct. GitHub push succeeded."
+    },
+    {
+      "date": "2026-10-30",
+      "summary": "Checked Clarksons' worldwide job board (30 postings; 25 read, the last 5 load dynamically), the Global Trainee Broker Programme page (still only says the 2026 intake is closed), the Hellerup 2027 Shipbroker Intern (still open, closes 10 Nov), Centalion (still open, no closing date), Oldendorff chartering (2026 closed, nothing on 2027), Pacific Basin (2027 update by year end), Braemar (next round 2027), Gibson (next intake 'soon'; only a Research Analyst role on its board), Lightship (Academy and internships closed), Norden, finn.no, Jobindex, NBAS Singapore. Changes: added Peak CSL Group operations and chartering internship in Bergen (finn.no, apply as soon as possible). Three new Clarksons postings added to ignore (Singapore middle distillates broker, Houston crude analyst, Athens charter party assistant). Left out: Norden 9-month Operations/Chartering internship (CBS International Shipping & Trade students only, deadline 9 Nov), Gibson Singapore junior chemicals broker (closed), Norwest chartering and operations in Bergen (experienced), Odfjell marine superintendent (technical), Maritime Trainee 2027 (master's, expired), FIS two-week broking internship in London (2026 deadline passed). Leads not verified: NOWACO Shipping Trainee in Aalborg (Jobindex, posted 29 Sep, no duties or deadline given). Could not open MB Shipbrokers' job board, Golar's finn ad, Western Bulk, Fearnleys, Ifchor Galbraiths, SSY, Cargill and Steem1960 this run (link permission), so those items are unchanged. MB student assistant deadline is today. GitHub push succeeded."
     }
   ],
   "ignore": [
@@ -629,6 +647,18 @@
     {
       "match": "1368146433",
       "why": "Clarksons Options Broker (commodity markets), London: 3+ years of options broking required"
+    },
+    {
+      "match": "1452736233",
+      "why": "Clarksons Middle Distillates Broker, Singapore: experience as a middle distillates broker and regulatory exams required"
+    },
+    {
+      "match": "1452576533",
+      "why": "Clarksons Commercial Shipping Analyst (Crude Oil), Houston: proven shipping market analysis experience required"
+    },
+    {
+      "match": "1452052933",
+      "why": "Clarksons Charter Party Assistant, Athens: administrative/contract-support background and charter party experience wanted; admin role, not broking"
     }
   ]
 }
