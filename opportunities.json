@@ -1,5 +1,5 @@
 {
-  "verified": "2026-10-30",
+  "verified": "2026-11-02",
   "tiers": {
     "1": "Clarksons itself",
     "2": "Shipbroking firm",
@@ -58,21 +58,6 @@
       "watchKey": "\\bmonaco\\b",
       "note": "Listed on Clarksons' own job board (posted 14 Oct 2026) as a new office with various opportunities. It is not an entry-level programme, and Monaco is outside the EU/EEA, so a work permit is needed. Worth a short email to Clarksons expressing interest, ideally through your Clarksons Copenhagen contact.",
       "visa": "permit"
-    },
-    {
-      "id": "mb-student-market-research",
-      "company": "MB Shipbrokers",
-      "role": "Student Assistant, Market Research",
-      "place": "Copenhagen",
-      "tier": 2,
-      "start": "Part-time, check if January works",
-      "status": "open",
-      "deadline": "2026-10-30",
-      "url": "https://jobs.mbshipbrokers.com/hrmeasy_recruitment.nsf/0/029DB3A9AE8B284EC1258E90002E456A?opendocument",
-      "watch": "https://jobs.mbshipbrokers.com/hrmeasy_recruitment.nsf/ShowJobList?OpenAgent",
-      "watchKey": "market research",
-      "note": "Two openings: one supporting the container team, one the bulk/tanker team. MB's job list shows 30 Oct, and the posting says they screen and interview on an ongoing basis, so apply as soon as you can.",
-      "anyDate": true
     },
     {
       "id": "mb-unsolicited",
@@ -300,7 +285,7 @@
       "url": "https://www.westernbulk.com/press/news/kickstart-your-career-in-global-shipping-and-trading",
       "watch": "https://www.finn.no/job/search?q=Western%20Bulk",
       "watchKey": "western bulk.*\\btrainee\\b|\\btrainee\\b.*western bulk",
-      "note": "Dry bulk operator with a big chartering desk. Last year's 12-month Commercial Trainee round was posted 15 Oct 2025 and closed 7 Nov 2025, leading to a junior chartering role. As of 26 Oct 2026 no new round is posted and Western Bulk's careers page lists no trainee programme, so this year's round may be late or skipped. A bachelor's is enough, though 1-2 years of sales or trading experience is preferred. Email trainee@westernbulk.com or register in their candidate portal now."
+      "note": "Dry bulk operator with a big chartering desk. Last year's 12-month Commercial Trainee round was posted 15 Oct 2025 and closed 7 Nov 2025, leading to a junior chartering role. As of 2 Nov 2026 no new round is posted and Western Bulk's careers page lists no trainee programme, so this year's round may be late or skipped. A bachelor's is enough, though 1-2 years of sales or trading experience is preferred. Email trainee@westernbulk.com or register in their candidate portal now."
     },
     {
       "id": "norden-trainee",
@@ -339,13 +324,11 @@
       "place": "Geneva, Singapore, Houston",
       "tier": 4,
       "start": "2027",
-      "status": "open",
-      "deadline": "2026-10-31",
-      "deadlineEst": true,
+      "status": "rolling",
       "url": "https://centalion.com/careers/graduate-program",
       "watch": "https://centalion.com/careers/graduate-program",
       "watchKey": "\\bgraduate\\b|applications",
-      "note": "Applications open now (still open on 30 Oct). Commodity trader with its own shipping arm (Clearlake Shipping). Degree must be finished by June 2027. The page gives no closing date and says decisions are made by year end; last year's window closed 31 October, so apply now. Work permit eligibility is checked at CV screening; Geneva needs no permit, Singapore and Houston do."
+      "note": "Still open on 2 Nov 2026 with no closing date, so apply now. Commodity trader with its own shipping arm (Clearlake Shipping). Degree must be finished by June 2027. The page says recruitment runs over several months with final decisions by the end of the year; last year's window closed 31 October, so it may close any day. Work permit eligibility is checked at CV screening; Geneva needs no permit, Singapore and Houston do."
     },
     {
       "id": "golar-summer-2027",
@@ -490,7 +473,7 @@
       "tier": 3,
       "start": "Six-week paid internship from September 2027, then a 12-month traineeship from October",
       "status": "expected",
-      "opens": "2026-11-15",
+      "opens": "2026-11-05",
       "est": true,
       "url": "https://www.oldendorff.com/traineeships/chartering",
       "watch": [
@@ -498,7 +481,7 @@
         "https://www.oldendorff.com/traineeships"
       ],
       "watchKey": "chartering|\\b2027\\b",
-      "note": "Chartering traineeship: a paid internship first, then three interns are offered the 12-month traineeship. On 28 October the chartering page still said applications are closed for 2026 while the operations, fleet and research programmes are open; the 2027 chartering opening date is a guess, so check the page and email if unclear. Germany is visa-free for you; Singapore and Dubai need a work visa."
+      "note": "Chartering traineeship: a six-week paid internship from September, then three interns are offered the 12-month traineeship from October. On 2 November Oldendorff's traineeships overview said applications for selected 2027 programmes are open and labelled Chartering as open, but the chartering page itself still said applications closed for 2026 and has no apply button. Check the page now and email Oldendorff if it is still unclear. Germany is visa-free for you; Singapore and Dubai need a work visa."
     },
     {
       "id": "oldendorff-research-trainee",
@@ -601,6 +584,10 @@
     {
       "date": "2026-10-30",
       "summary": "Checked Clarksons' worldwide job board (30 postings; 25 read, the last 5 load dynamically), the Global Trainee Broker Programme page (still only says the 2026 intake is closed), the Hellerup 2027 Shipbroker Intern (still open, closes 10 Nov), Centalion (still open, no closing date), Oldendorff chartering (2026 closed, nothing on 2027), Pacific Basin (2027 update by year end), Braemar (next round 2027), Gibson (next intake 'soon'; only a Research Analyst role on its board), Lightship (Academy and internships closed), Norden, finn.no, Jobindex, NBAS Singapore. Changes: added Peak CSL Group operations and chartering internship in Bergen (finn.no, apply as soon as possible). Three new Clarksons postings added to ignore (Singapore middle distillates broker, Houston crude analyst, Athens charter party assistant). Left out: Norden 9-month Operations/Chartering internship (CBS International Shipping & Trade students only, deadline 9 Nov), Gibson Singapore junior chemicals broker (closed), Norwest chartering and operations in Bergen (experienced), Odfjell marine superintendent (technical), Maritime Trainee 2027 (master's, expired), FIS two-week broking internship in London (2026 deadline passed). Leads not verified: NOWACO Shipping Trainee in Aalborg (Jobindex, posted 29 Sep, no duties or deadline given). Could not open MB Shipbrokers' job board, Golar's finn ad, Western Bulk, Fearnleys, Ifchor Galbraiths, SSY, Cargill and Steem1960 this run (link permission), so those items are unchanged. MB student assistant deadline is today. GitHub push succeeded."
+    },
+    {
+      "date": "2026-11-02",
+      "summary": "Checked Clarksons' worldwide job board (the 'View all jobs' page returned a cached copy listing 26 postings up to 24 Oct, so the newest postings, including the Hellerup intern, could not be re-read; no items changed on that basis), the Global Trainee Broker Programme page (still only says the 2026 intake is closed), the early-careers page, Centalion (graduate program still open, no closing date), Oldendorff (overview says selected 2027 programmes are open and labels Chartering open, but the chartering page still says closed for 2026), Pacific Basin (2027 update by year end), Braemar (next round 2027), Gibson (next intake 'soon'), SSY (September 2026 enrolment closed, no 2027 date), Norden (no trainee roles; only the CBS IST shipping intern), Trafigura (all 2027 graduate programmes closed, no freight track), Western Bulk (still only the Oct 2025 ad), Steem1960 (only the expired 2026 ad), finn.no, TargetJobs, Bright Network, Indeed Singapore, NBAS. Changes: removed MB Shipbrokers Student Assistant, Market Research (deadline 30 Oct passed); Centalion graduate program changed to rolling (estimated 31 Oct deadline passed but the page is still open). Left out: DFDS Graduate Programme Shipping, Copenhagen (master's required, ferry division, deadline 30 Nov), Centalion 2027 US Internship Houston (trading operations, not shipping), Anglo American shipping graduate London (closed), Hagland Aberdeen trainee (closed, no sponsorship), Maritime Trainee (master's, expired), OSM Thome trainee Arendal (technical, expired). Could not open Clarksons filtered searches and the Hellerup ad, MB Shipbrokers' job board, Golar's finn ad, Fearnleys, Ifchor Galbraiths and Cargill this run (link permission), so those items are unchanged. validate.mjs passes; tests/run.mjs has 1 failure ('postings on the ignore list are hidden') caused only by its test fixture using the words 'Shipbroker Intern', which the real tracked Clarksons Hellerup item also contains (all 69 tests pass with that item removed), so the data was pushed; the test needs a fixture fix. GitHub push succeeded."
     }
   ],
   "ignore": [
