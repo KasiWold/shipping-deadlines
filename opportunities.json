@@ -1,5 +1,5 @@
 {
-  "verified": "2026-11-13",
+  "verified": "2026-11-16",
   "tiers": {
     "1": "Clarksons itself",
     "2": "Shipbroking firm",
@@ -15,7 +15,7 @@
       "tier": 1,
       "start": "Autumn 2027 (2026 cohort started 28 Sept)",
       "status": "expected",
-      "opens": "2026-11-01",
+      "opens": "2026-11-23",
       "est": true,
       "deadline": "2027-02-15",
       "deadlineEst": true,
@@ -25,7 +25,7 @@
         "https://careers.clarksons.com/search/?q=trainee"
       ],
       "watchKey": "trainee broker programme|global trainee broker|\\b2027 intake\\b",
-      "note": "The flagship route to becoming a Clarksons broker. On 6 November the programme page still said only that the 2026 intake is closed; Clarksons posted an Early Careers Specialist role in London on 2 November to run this programme, so the 2027 round may be a little later than usual. Last round, London closed 16 Feb 2026 and other offices stayed open longer. Recent cohorts sat in Oslo, London, Singapore, Dubai, Hamburg, Tokyo, Shanghai, New York and Connecticut, so you can apply to any of them; offices outside the EEA need a work visa, so ask about sponsorship for those. Opening date is an estimate, set early on purpose so you keep checking."
+      "note": "The flagship route to becoming a Clarksons broker. On 16 November the programme page still said only that the 2026 intake is closed; Clarksons posted an Early Careers Specialist role in London on 2 November to run this programme, so the 2027 round may be a little later than usual. Last round, London closed 16 Feb 2026 and other offices stayed open longer. Recent cohorts sat in Oslo, London, Singapore, Dubai, Hamburg, Tokyo, Shanghai, New York and Connecticut, so you can apply to any of them; offices outside the EEA need a work visa, so ask about sponsorship for those. Opening date is an estimate, set early on purpose so you keep checking."
     },
     {
       "id": "clarksons-monaco-office",
@@ -111,14 +111,14 @@
       "tier": 2,
       "start": "2027 (month not confirmed)",
       "status": "expected",
-      "opens": "2026-11-15",
+      "opens": "2026-12-01",
       "est": true,
       "deadline": "2027-01-31",
       "deadlineEst": true,
       "url": "https://ifchorgalbraiths.com/careers/",
       "watch": "https://ifchorgalbraiths.com/careers/",
       "watchKey": "talent programme|\\bigtp\\b|\\btrainee\\b",
-      "note": "12-month shipbroking programme. The 2026 round closed 31 January 2026. Eligible with a business education. Ifchor Galbraiths' offices are Lausanne and London; the page does not say where trainees sit."
+      "note": "12-month shipbroking programme. The 2026 round closed 31 January 2026. Eligible with a business education. Ifchor Galbraiths' offices are Lausanne and London; the page does not say where trainees sit. On 16 November the careers page still showed only the 2026 programme, so the opening estimate moved to 1 December."
     },
     {
       "id": "steem1960-trainee",
@@ -233,10 +233,10 @@
       "tier": 3,
       "start": "Around June 2027",
       "status": "expected",
-      "opens": "2026-11-15",
+      "opens": "2026-12-01",
       "est": true,
       "url": "https://careers.cargill.com/en/search-jobs?k=ocean%20transportation%20academy",
-      "note": "Chartering and freight trading desk of one of the largest charterers. The 2026 intake ran in Geneva, Singapore and Coral Gables and its postings have now been taken down; 2027 dates are not published yet, so search Cargill careers for 'Ocean Transport'. Singapore and the US need a work visa."
+      "note": "Chartering and freight trading desk of one of the largest charterers. The 2026 intake ran in Geneva, Singapore and Coral Gables and its postings have now been taken down; 2027 dates are not published yet, so search Cargill careers for 'Ocean Transport'. Singapore and the US need a work visa. No 2027 postings found on 16 November, so the opening estimate moved to 1 December."
     },
     {
       "id": "western-bulk-commercial-trainee",
@@ -483,10 +483,6 @@
   "log": [
     {
       "date": "2026-10-16",
-      "summary": "First full search. 19 opportunities across Clarksons, 10 other shipbrokers, 4 chartering desks and 2 other shipping roles. New finds: Clarksons Denmark one-year Shipbroker Intern route, MB Shipbrokers student assistant deadline 30 Oct, Centalion graduate programme open now."
-    },
-    {
-      "date": "2026-10-16",
       "summary": "Second check today. Re-checked all items on their own pages plus Clarksons careers search, NHHS, finn.no, Jobindex, Danish Shipping and broker careers pages. Added Ultrabulk Shipping Talent Pipeline (rolling). Confirmed Wilhelmsen deadline 25 Oct and start 14 June 2027, and updated its link. MB unsolicited application now runs to 31 Dec 2026. Cargill 2026 posting removed. Found Clarksons Oslo Summer Internship 2027 had already closed (2 Oct), so not added. No 2027 dates yet for Clarksons GTBP, Ifchor, BRS, Lightship or Braemar."
     },
     {
@@ -560,6 +556,10 @@
     {
       "date": "2026-11-13",
       "summary": "Checked Clarksons' job board (the default search view, 27 postings; the date-sorted search URL could not be opened this run, and the view returned shows nothing newer than 21 Oct, so postings from the last three weeks could not be re-read): no new entry-level broking, research or analyst roles seen; Houston Trainee Broker and the Monaco office posting are still live; London Trainee Broker (1275822101) shows as filled. Global Trainee Broker Programme page still says only that the 2026 intake is closed; London broking summer internship page still says applications are closed (15 Jun to 17 Jul, no UK sponsorship). Still not open: Ifchor Galbraiths (page shows only the 2026 programme), Oldendorff Advanced Chartering (closed for 2026), SSY trainee scheme (only the September 2026 round mentioned), Braemar (next round opens in 2027), Gibson (next intake info soon), Pacific Basin (2027 update by year end), Norden (no 2027 trainee round on the kickstart page). Howe Robinson Trainee Shipbroker still advertised on Indeed Singapore with trainee openings in all offices (already tracked). Out of scope: Norwegian Maritime Trainee 2027 (master's degree required), DOF Maritime Trainee 2027 (master's, deadline 4 Oct passed), Klaveness Summer 2027 sea-going internship (engineering students, deadline 1 Nov passed), VARD Maritime Trainee (technical). Leads not verified: Hagland Shipbrokers UK Trainee Broker, Aberdeen (TargetJobs, preferred start May 2026, no closing date, cannot sponsor UK visas) likely stale. Could not open Cargill's job search, Western Bulk's careers page (only the 2025 round news post), Steem1960 or Centalion this run. No items added or removed. validate.mjs passes. tests/run.mjs: 68 of 69 pass; the one failure is the same stale test fixture as the last runs (fixed date 07.11.2026 in tests/run.mjs line 57), not the data. GitHub push succeeded."
+    },
+    {
+      "date": "2026-11-16",
+      "summary": "Checked Clarksons' worldwide job board (View All Jobs, 38 postings, newest 25 read): new since last run are only non-broking roles (warehouse operator IJmuiden, customs declarant Den Helder, agency operators Immingham and Southampton, General Manager and Account Manager Warrington, End User Support Analyst London); Houston Trainee Broker (11 Nov) and the Monaco office posting are still live; every other entry-level posting is already tracked or ignored. The filtered searches (?q=trainee and the date-sorted view) could not be opened this run (link permission). Global Trainee Broker Programme page still says only that the 2026 intake is closed (opening estimate moved to 23 Nov); Oslo summer internship 2027 is closed. Still not open: Ifchor Galbraiths (only 2026 programme shown, estimate moved to 1 Dec), Cargill Ocean Transportation Academy (no 2027 postings, estimate moved to 1 Dec), Braemar (next round opens in 2027), Pacific Basin (2027 update by year end), SSY trainee scheme (only September 2026 round), Gibson (next intake info soon; only live job is Data Researcher Athens), Oldendorff Advanced Chartering (closed for 2026), Steem1960 (only the expired 2026 finn ad), Western Bulk (no trainee round on the careers page), Norden (only tech roles open), Stena Bulk shipping trainee ad inactive. Howe Robinson Trainee Shipbroker still on Indeed (reference TR20). Out of scope: M3 Marine Trainee Offshore Shipbroker Singapore (Singapore citizens and PR only, Dec 2024 ad), Fearnley Offshore Supply Shipbroker Chartering Oslo (expired), LDC Freight Commercial Track Singapore (expired), NBAS Clarksons Platou trainee (2022, filled). bp Supply, Trading & Shipping 2027 remains closed. Could not open MB Shipbrokers' job board, Fearnleys careers, Ultrabulk, Centalion and the Peak CSL finn ad this run (link permission), so those items are unchanged. No items added or removed. validate.mjs passes. tests/run.mjs: 68 of 69 pass; the one failure is the same stale test fixture as the last runs (fixed date 07.11.2026 in tests/run.mjs line 57), not the data. GitHub push succeeded."
     }
   ],
   "ignore": [
