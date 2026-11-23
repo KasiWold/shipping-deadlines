@@ -1,5 +1,5 @@
 {
-  "verified": "2026-11-20",
+  "verified": "2026-11-23",
   "tiers": {
     "1": "Clarksons itself",
     "2": "Shipbroking firm",
@@ -15,7 +15,7 @@
       "tier": 1,
       "start": "Autumn 2027 (2026 cohort started 28 Sept)",
       "status": "expected",
-      "opens": "2026-11-23",
+      "opens": "2026-12-01",
       "est": true,
       "deadline": "2027-02-15",
       "deadlineEst": true,
@@ -25,7 +25,7 @@
         "https://careers.clarksons.com/search/?q=trainee"
       ],
       "watchKey": "trainee broker programme|global trainee broker|\\b2027 intake\\b",
-      "note": "The flagship route to becoming a Clarksons broker. On 16 November the programme page still said only that the 2026 intake is closed; Clarksons posted an Early Careers Specialist role in London on 2 November to run this programme, so the 2027 round may be a little later than usual. Last round, London closed 16 Feb 2026 and other offices stayed open longer. Recent cohorts sat in Oslo, London, Singapore, Dubai, Hamburg, Tokyo, Shanghai, New York and Connecticut, so you can apply to any of them; offices outside the EEA need a work visa, so ask about sponsorship for those. Opening date is an estimate, set early on purpose so you keep checking."
+      "note": "The flagship route to becoming a Clarksons broker. On 23 November the programme page still said only that the 2026 intake is closed; Clarksons posted an Early Careers Specialist role in London on 2 November to run this programme, so the 2027 round may be a little later than usual. Last round, London closed 16 Feb 2026 and other offices stayed open longer. Recent cohorts sat in Oslo, London, Singapore, Dubai, Hamburg, Tokyo, Shanghai, New York and Connecticut, so you can apply to any of them; offices outside the EEA need a work visa, so ask about sponsorship for those. Opening date is an estimate, set early on purpose so you keep checking."
     },
     {
       "id": "clarksons-monaco-office",
@@ -468,10 +468,6 @@
   ],
   "log": [
     {
-      "date": "2026-10-16",
-      "summary": "Fourth check today (test run focused on saving). Re-checked MB Shipbrokers job list (student assistant 30 Oct, unsolicited to 31 Dec), Centalion (still open, no deadline shown) and the Clarksons GTBP page (2026 intake closed, nothing on 2027). No changes to any opportunity. The repository was still at the second-check version, so the third check's log entry was added too. GitHub push failed with this error: remote: access denied by the git proxy: KasiWold/shipping-deadlines is not in this session's authorized repository set, so the proxy will not inject a credential for it. To fix, add the repository to the session's sources. fatal: unable to access 'https://github.com/KasiWold/shipping-deadlines.git/': The requested URL returned error: 403"
-    },
-    {
       "date": "2026-10-19",
       "summary": "Re-checked all items on their own pages plus Clarksons careers search (Oslo, Hamburg, Geneva, Hellerup, intern, trainee), NHHS, finn.no, Maritime Trainee, Braemar, SSY, BRS, Ifchor, Lightship, Fearnleys, Norden, TORM, Trafigura and Centalion. Added Clarksons new Monaco office (rolling) and SSY Trainee Scheme 2027 (expected Feb 2027). Howe Robinson now lists Copenhagen, Bergen, Hamburg and Geneva. No 2027 dates yet for Clarksons GTBP or Hellerup intern. Skipped: Klaveness summer (engineering only), Clarksons Rotterdam operator (Dutch and experience needed), Trafigura Geneva (closed), Maritime Trainee (only DOF and VARD left, master's level). GitHub push failed again: the repository is not authorized for this session, so only this page was updated."
     },
@@ -546,6 +542,10 @@
     {
       "date": "2026-11-20",
       "summary": "Checked Clarksons' worldwide job board (38 postings, newest 25 read; the keyword searches return the same unfiltered list): no new entry-level broking, research or analyst roles. Houston Trainee Broker (reposted 11 Nov) and the Monaco office posting still live; Tokyo Junior Commercial Shipping Analyst still live (fluent Japanese, stays ignored). Global Trainee Broker Programme page still only says the 2026 intake is closed; London summer internship closed (no sponsorship); Oslo summer internship 2027 closed. Removed: Peak CSL internship Operations & Chartering, Bergen (finn ad shows deadline passed, last changed 23 Oct 2026). Still not open: Ifchor Galbraiths (only 2026 programme text), Steem1960 (no new ad), SSY (September 2026 enrolment closed), Braemar, Gibson (next intake info soon), Cargill Ocean Transportation Academy (old postings removed, no 2027 posting), Western Bulk, Norden, Stena Bulk, Pacific Basin (2027 update by year end), Vitol (check back in winter), Trafigura Commercial Programme (closed for Sept 2027 intake), Glencore London 2027 (closed 9 Oct), Bunge, LDC Freight track (expired). Oldendorff Operations Trainee 2027 and Research Trainee still open; Oldendorff overview page labels chartering 'Applications open' for selected 2027 programmes while the chartering page still says closed for 2026, so the chartering item stays expected. Centalion graduate page still says applications open. Howe Robinson Trainee Shipbroker (TR20) still live. Out of scope: MB Shipbrokers and TORM internships (CBS International Shipping & Trade students only), Hagland Trainee Broker Aberdeen (UK right to work, no sponsorship), Arrow Panamax trainee (Mandarin), BW Future Leaders 2027 (Singapore graduates), Oldendorff Singapore operations (citizens and PR only), Norwegian Maritime Trainee (master's). Leads not verified: Harren Group Maritime Kick-Start Traineeship Hamburg (seen only on an aggregator), Poten & Partners Trainee Broker London (third-party page only), Maersk Tankers Student Assistant Treasury Copenhagen and MSC Denmark Trainee Program Aarhus (job-board ads with no date; not shipping-commercial). Could not open fearnleys.com, MB job list, BRS, Lightship, Lorentzen & Stemoco and several other broker careers pages this run (link permission), so those items are unchanged. validate.mjs passes. tests/run.mjs: 68 of 69 pass; the one failure is the same stale test fixture as earlier runs (fixed date in tests/run.mjs), not the data. GitHub push succeeded."
+    },
+    {
+      "date": "2026-11-23",
+      "summary": "Checked Clarksons' worldwide job board (View All Jobs: 37 postings, newest 25 read; the search page itself could not be opened this run): no new entry-level broking, research or analyst roles. Houston Trainee Broker (posted 11 Nov) still live; London Trainee Broker 1275822101 shows filled. New non-broking postings include PA to Broking Division MD London (added to ignore). Global Trainee Broker Programme page still says only that the 2026 intake is closed, so the estimated opening moved from 23 Nov to 1 Dec. London summer internship still closed (no sponsorship). Still not open: Braemar ('next application round will open in 2027'), BRS (graduate applications closed, 2026 brochure), SSY (September 2026 enrolment closed), Gibson (next intake info soon), Pacific Basin (2027 update by year end), Vitol (closed, check back in winter), Western Bulk (only the 2025 post), Steem1960 (only the Jan 2026 finn ad), Cargill Ocean Transport Trainee Singapore (posting gone). Oldendorff Operations Trainee 2027 and Research Trainee (2026 and 2027 intakes, rolling) still open; chartering page still says closed for 2026 and the overview no longer labels chartering open. bp Supply, Trading & Shipping 2027: Bright Network header says 'Recently opened' but bp closed these on 21 Oct due to volume, so not re-added. Out of scope: DOF Maritime Trainee 2027 (master's, deadline 4 Oct passed), Norwegian Maritime Trainee Group 20 (master's), Fearnley Offshore Supply chartering broker Oslo (Norwegian fluency, not entry programme), Norden Annapolis trainee (US right to work, 2026 intake closed), Gibson Junior Trainee Chemicals Singapore (Mandarin, removed). Leads not verified: MB Shipbrokers 2027 Shipbroker Trainee Singapore (seen only on aggregator workopia.io; MB job portal could not be opened, see mb-trainee-2027). Could not open (link permission) Fearnleys, MB job list, Lightship, Grieg, Ifchor Galbraiths, Howe Robinson, Centalion, LDC, Stena, TORM, Ultrabulk and Norden open positions, so those items are unchanged. validate.mjs passes. tests/run.mjs: 68 of 69 pass; the one failure is the same stale test fixture as earlier runs, not the data. GitHub push succeeded."
     }
   ],
   "ignore": [
@@ -620,6 +620,10 @@
     {
       "match": "1455274633",
       "why": "Clarksons Charter Party Assistant (maternity cover), London: fixed-term admin contract-support role, charter party experience wanted; not broking"
+    },
+    {
+      "match": "1449033833",
+      "why": "Clarksons PA to Broking Division MD (12-14 month maternity cover), London: executive assistant role, not broking"
     }
   ]
 }
